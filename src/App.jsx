@@ -18,6 +18,9 @@ import {
   UserCheck
 } from 'lucide-react';
 import { portfolio } from './content/portfolio.js';
+import profileHero from './reference-pictures/perfil1.png';
+import profileProcess from './reference-pictures/perfil2.jpg';
+import welcomeHost from './assets/welcome-host.png';
 
 const iconMap = [ShieldCheck, UserCheck, Sparkles];
 
@@ -29,8 +32,8 @@ function App() {
       <Hero owner={owner} contact={contact} hero={hero} stats={stats} />
       <SectionIntro
         eyebrow="Servicios"
-        title="Gestion clara para propietarios que quieren delegar con confianza"
-        description="El objetivo es que tu alojamiento opere con orden, buena comunicacion y una experiencia consistente para cada huesped."
+        title="Gestión clara para propietarios que quieren delegar con confianza"
+        description="Servicios concretos para ordenar la operación, mejorar la presentación del anuncio y cuidar la experiencia del huésped."
       />
       <Services services={services} />
       <Properties properties={properties} />
@@ -66,40 +69,43 @@ function Hero({ owner, contact, hero, stats }) {
             </a>
             <a className="button secondary" href="#alojamientos">
               <Building2 aria-hidden="true" />
-              Ver alojamientos
+              Ver alojamientos gestionados
             </a>
           </div>
         </div>
 
-        <aside className="profile-panel" aria-label="Perfil profesional">
-          <div className="profile-photo">
-            {owner.profileImage ? (
-              <img src={owner.profileImage} alt={`Foto de ${owner.name}`} />
-            ) : (
-              <span>{getInitials(owner.name)}</span>
-            )}
+        <div className="hero-visual">
+          <aside className="profile-panel" aria-label="Perfil profesional">
+            <div className="profile-photo">
+              <img src={owner.profileImage || profileHero} alt={`Foto de ${owner.name}`} />
+            </div>
+            <div>
+              <p className="profile-name">{owner.name}</p>
+              <p className="profile-role">{owner.role}</p>
+              <p className="profile-location">
+                <MapPin aria-hidden="true" />
+                {owner.location}
+              </p>
+            </div>
+            <p className="profile-intro">{owner.intro}</p>
+            <div className="proof-list">
+              {owner.proofPoints.map((point, index) => {
+                const Icon = iconMap[index] || CheckCircle2;
+                return (
+                  <span key={point}>
+                    <Icon aria-hidden="true" />
+                    {point}
+                  </span>
+                );
+              })}
+            </div>
+          </aside>
+
+          <div className="welcome-hover" aria-label="Imagen de bienvenida al alojamiento">
+            <img src={welcomeHost} alt="Anfitrión saludando fuera de una casa moderna" />
+            <span>Vista de bienvenida</span>
           </div>
-          <div>
-            <p className="profile-name">{owner.name}</p>
-            <p className="profile-role">{owner.role}</p>
-            <p className="profile-location">
-              <MapPin aria-hidden="true" />
-              {owner.location}
-            </p>
-          </div>
-          <p className="profile-intro">{owner.intro}</p>
-          <div className="proof-list">
-            {owner.proofPoints.map((point, index) => {
-              const Icon = iconMap[index] || CheckCircle2;
-              return (
-                <span key={point}>
-                  <Icon aria-hidden="true" />
-                  {point}
-                </span>
-              );
-            })}
-          </div>
-        </aside>
+        </div>
       </div>
 
       <div className="stats">
@@ -174,11 +180,11 @@ function Properties({ properties }) {
       <div className="section-heading">
         <div>
           <p className="eyebrow">Alojamientos</p>
-          <h2>Un portafolio que se siente vivo, verificable y de alto nivel</h2>
+          <h2>Alojamientos y casos de trabajo preparados para escalar</h2>
         </div>
         <p>
-          Cada alojamiento puede mostrar imagenes, mejoras realizadas y detalles operativos. Hoy son
-          imagenes de referencia; despues las cambiamos por tus propiedades reales.
+          Cada alojamiento puede mostrar fotos, beneficios operativos, mejoras realizadas y links reales
+          cuando tengas todo documentado.
         </p>
       </div>
 
@@ -304,10 +310,10 @@ function Trust({ owner, process }) {
     <section className="trust">
       <div className="trust-copy">
         <p className="eyebrow">Confianza</p>
-        <h2>Una presencia profesional para que el cliente sepa con quien esta hablando</h2>
+        <h2>Un proceso claro para que sepas qué estoy haciendo con tu alojamiento</h2>
         <p>
-          La pagina muestra identidad, servicios concretos, evidencia de operacion y formas directas de
-          contacto. Eso reduce friccion y ayuda a separar una propuesta seria de una pagina improvisada.
+          Trabajo con pasos simples para que sepas qué se revisa, qué se mejora y cómo se mantiene la
+          operación bajo control.
         </p>
       </div>
       <div className="process-list" aria-label="Proceso de trabajo">
@@ -318,6 +324,9 @@ function Trust({ owner, process }) {
           </div>
         ))}
       </div>
+      <figure className="process-photo">
+        <img src={profileProcess} alt={`${owner.name} trabajando en la gestión diaria`} />
+      </figure>
       <div className="signature">
         <UserCheck aria-hidden="true" />
         <span>{owner.name}</span>
@@ -333,8 +342,8 @@ function Contact({ owner, contact }) {
         <p className="eyebrow">Contacto</p>
         <h2>Hablemos de tu alojamiento</h2>
         <p>
-          Si tienes una propiedad en Airbnb o quieres mejorar su operacion, puedes escribirme y revisamos
-          que necesitas delegar primero.
+          Si tienes una propiedad en Airbnb o quieres mejorar su operación, puedo ayudarte a identificar
+          qué conviene delegar primero.
         </p>
       </div>
       <div className="contact-actions">

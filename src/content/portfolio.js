@@ -2,12 +2,12 @@ export const portfolio = {
   owner: {
     name: 'Rogelio Pervaz',
     role: 'Administrador freelance de alojamientos Airbnb',
-    location: 'Mexico',
+    location: 'México',
     profileImage: '',
     intro:
-      'Ayudo a propietarios a operar, presentar y mejorar sus alojamientos para que los huespedes tengan una experiencia clara, confiable y bien atendida.',
+      'Ayudo a propietarios a operar, presentar y mejorar sus alojamientos para que los huéspedes tengan una experiencia clara, confiable y bien atendida.',
     proofPoints: [
-      'Gestion directa y comunicacion transparente',
+      'Gestión directa y comunicación transparente',
       'Experiencia operando alojamientos reales',
       'Enfoque en limpieza, orden, disponibilidad y respuesta'
     ]
@@ -16,45 +16,45 @@ export const portfolio = {
     whatsapp: 'https://wa.me/520000000000',
     email: 'mailto:tu-correo@example.com',
     instagram: 'https://instagram.com/',
-    primaryCta: 'Agendar llamada'
+    primaryCta: 'Agendar diagnóstico gratuito'
   },
   hero: {
-    eyebrow: 'Portafolio Airbnb',
-    title: 'Gestion Airbnb con presencia, criterio y calidez humana',
+    eyebrow: 'Gestión Airbnb profesional',
+    title: 'Administración profesional de alojamientos Airbnb para propietarios que quieren delegar con confianza',
     description:
-      'Una forma mas clara de operar alojamientos: comunicacion confiable, detalles bien cuidados y una experiencia que hace sentir al propietario y al huesped en buenas manos.'
+      'Opero, optimizo y presento alojamientos con comunicación clara, seguimiento constante y atención al huésped, para que tu propiedad funcione con orden y mejor experiencia.'
   },
   stats: [
-    { value: '24/7', label: 'Atencion al huesped' },
-    { value: '4+', label: 'Areas de gestion' },
+    { value: '24/7', label: 'Atención al huésped' },
+    { value: '4', label: 'Áreas de gestión' },
     { value: '1:1', label: 'Trato directo contigo' }
   ],
   services: [
     {
-      title: 'Operacion diaria',
+      title: 'Operación diaria',
       description:
-        'Coordinacion de reservas, mensajes, check-in, check-out y seguimiento de incidencias.'
+        'Coordinación de reservas, mensajes, check-in, check-out, incidencias y seguimiento operativo.'
     },
     {
-      title: 'Presentacion del anuncio',
+      title: 'Optimización del anuncio',
       description:
-        'Revision de descripcion, fotos, reglas, amenidades y puntos clave para comunicar mejor el valor del espacio.'
+        'Revisión de descripción, fotos, reglas, amenidades y puntos clave para comunicar mejor el valor del espacio.'
     },
     {
-      title: 'Experiencia del huesped',
+      title: 'Atención al huésped',
       description:
-        'Mensajes claros, instrucciones practicas y seguimiento para reducir dudas y mejorar la percepcion del servicio.'
+        'Mensajes claros, instrucciones prácticas y seguimiento para reducir dudas y mejorar la experiencia.'
     },
     {
       title: 'Mejora continua',
       description:
-        'Revision de comentarios, oportunidades de optimizacion y recomendaciones practicas para cada propiedad.'
+        'Revisión de comentarios, oportunidades de mejora y ajustes para mantener una operación más ordenada.'
     }
   ],
   properties: [
     {
-      name: 'Departamento centrico',
-      location: 'Ciudad / zona',
+      name: 'Departamento céntrico',
+      location: 'Ciudad / zona · Caso en documentación',
       image:
         'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80',
       gallery: [
@@ -64,19 +64,19 @@ export const portfolio = {
         'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=80'
       ],
       description:
-        'Alojamiento urbano con enfoque en estancias practicas, comunicacion rapida y proceso de llegada simple.',
-      highlights: ['Check-in claro', 'Ubicacion conveniente', 'Ideal para estancias cortas'],
+        'Ejemplo de alojamiento urbano con operación enfocada en comunicación rápida, llegada simple y experiencia ordenada.',
+      highlights: ['Check-in claro', 'Ubicación conveniente', 'Seguimiento operativo'],
       workDone: [
-        'Estandarizacion de mensajes para llegada y salida.',
-        'Revision de descripcion para comunicar mejor ubicacion y amenidades.',
-        'Checklist operativo para limpieza y reposicion entre reservas.'
+        'Estandarización de mensajes para llegada y salida.',
+        'Revisión de descripción para comunicar mejor ubicación y amenidades.',
+        'Checklist operativo para limpieza y reposición entre reservas.'
       ],
-      result: 'Experiencia mas ordenada para huespedes que necesitan rapidez y claridad.',
+      result: 'Experiencia más ordenada para huéspedes que necesitan rapidez y claridad.',
       link: '#'
     },
     {
       name: 'Casa para familias',
-      location: 'Ciudad / zona',
+      location: 'Ciudad / zona · Caso en documentación',
       image:
         'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80',
       gallery: [
@@ -86,19 +86,19 @@ export const portfolio = {
         'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80'
       ],
       description:
-        'Propiedad pensada para comodidad, orden y coordinacion de limpieza entre reservas.',
-      highlights: ['Espacios amplios', 'Coordinacion de limpieza', 'Atencion personalizada'],
+        'Ejemplo de propiedad pensada para comodidad, orden y coordinación confiable entre reservas.',
+      highlights: ['Espacios amplios', 'Coordinación de limpieza', 'Atención personalizada'],
       workDone: [
-        'Definicion de reglas claras para grupos y familias.',
-        'Organizacion de instrucciones de casa para reducir dudas frecuentes.',
+        'Definición de reglas claras para grupos y familias.',
+        'Organización de instrucciones de casa para reducir dudas frecuentes.',
         'Seguimiento de comentarios para detectar mejoras prioritarias.'
       ],
-      result: 'Operacion mas predecible y comunicacion mas tranquila para estancias familiares.',
+      result: 'Operación más predecible y comunicación más tranquila para estancias familiares.',
       link: '#'
     },
     {
       name: 'Estancia ejecutiva',
-      location: 'Ciudad / zona',
+      location: 'Ciudad / zona · Caso en documentación',
       image:
         'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80',
       gallery: [
@@ -108,21 +108,21 @@ export const portfolio = {
         'https://images.unsplash.com/photo-1560448075-bb485b067938?auto=format&fit=crop&w=900&q=80'
       ],
       description:
-        'Alojamiento con comunicacion eficiente y detalles pensados para viajeros de trabajo.',
-      highlights: ['Respuesta agil', 'Informacion completa', 'Perfil profesional'],
+        'Ejemplo de alojamiento con comunicación eficiente y detalles pensados para viajeros de trabajo.',
+      highlights: ['Respuesta ágil', 'Información completa', 'Perfil profesional'],
       workDone: [
         'Optimización de mensajes para viajeros con poco tiempo.',
         'Enfoque del anuncio hacia comodidad, descanso y productividad.',
-        'Revision de amenidades clave para perfiles ejecutivos.'
+        'Revisión de amenidades clave para perfiles ejecutivos.'
       ],
-      result: 'Una presentacion mas profesional para huespedes que valoran precision y confianza.',
+      result: 'Una presentación más profesional para huéspedes que valoran precisión y confianza.',
       link: '#'
     }
   ],
   process: [
     'Conozco tu propiedad, tus objetivos y el estado actual del anuncio.',
-    'Definimos que parte de la operacion necesitas delegar o mejorar.',
-    'Ordeno la comunicacion, calendario, instrucciones y seguimiento operativo.',
-    'Revisamos resultados y ajustes para mantener una gestion clara.'
+    'Definimos qué parte de la operación necesitas delegar o mejorar.',
+    'Ordeno la comunicación, calendario, instrucciones y seguimiento operativo.',
+    'Revisamos resultados y ajustes para mantener una gestión clara.'
   ]
 };
