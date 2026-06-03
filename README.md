@@ -8,7 +8,7 @@ Todo el contenido principal esta en `src/content/portfolio.js`.
 
 - `owner.profileImage`: agrega la URL de tu foto o una ruta local como `/profile.jpg`.
 - `properties`: agrega o elimina alojamientos.
-- `contact`: cambia WhatsApp, email e Instagram.
+- `contact`: cambia WhatsApp, email y el enlace de Airbnb.
 - `services`: ajusta los servicios que ofreces.
 
 Si quieres usar imagenes locales, colocalas en `public/` y referencialas con `/nombre-del-archivo.jpg`.

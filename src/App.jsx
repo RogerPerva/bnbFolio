@@ -1,16 +1,13 @@
 import React from 'react';
 import {
-  ArrowRight,
   Building2,
   CheckCircle2,
   ChevronLeft,
   ChevronRight,
   CircleDot,
   LayoutGrid,
-  Maximize2,
   X,
   ExternalLink,
-  Mail,
   MapPin,
   MessageCircle,
   ShieldCheck,
@@ -18,11 +15,23 @@ import {
   UserCheck
 } from 'lucide-react';
 import { portfolio } from './content/portfolio.js';
-import profileHero from './reference-pictures/perfil1.png';
-import profileProcess from './reference-pictures/perfil2.jpg';
-import welcomeHost from './assets/welcome-host.png';
+import profileHero from './assets/reference-pictures/perfil1.png';
+import profileProcess from './assets/reference-pictures/perfil2.jpg';
 
 const iconMap = [ShieldCheck, UserCheck, Sparkles];
+const serviceGradients = [
+  'linear-gradient(90deg, #ff7a6f, #ffb07a)',
+  'linear-gradient(90deg, #2f6672, #64c7b7)',
+  'linear-gradient(90deg, #2d5d86, #79a7db)',
+  'linear-gradient(90deg, #7a5f97, #ba98f2)',
+  'linear-gradient(90deg, #d8925a, #f3cf9b)'
+];
+const heroAirbnbFloaters = [
+  { top: '10%', left: '8%', size: 78, duration: '18s', rotation: '-10deg', opacity: 0.8 },
+  { top: '18%', left: '48%', size: 84, duration: '22s', rotation: '8deg', opacity: 0.8 },
+  { top: '52%', left: '14%', size: 74, duration: '19s', rotation: '-4deg', opacity: 0.8 },
+  { bottom: '16%', right: '24%', size: 80, duration: '21s', rotation: '14deg', opacity: 0.8 }
+];
 
 function App() {
   const { owner, contact, hero, stats, services, properties, process } = portfolio;
@@ -32,13 +41,22 @@ function App() {
       <Hero owner={owner} contact={contact} hero={hero} stats={stats} />
       <SectionIntro
         eyebrow="Servicios"
-        title="Gestión clara para propietarios que quieren delegar con confianza"
-        description="Servicios concretos para ordenar la operación, mejorar la presentación del anuncio y cuidar la experiencia del huésped."
+        title="Servicios para lanzar o mejorar tu alojamiento"
+        description="Creación de anuncio, fotografía, orientación y operación para propietarios que empiezan desde cero o ya tienen un Airbnb activo."
       />
       <Services services={services} />
       <Properties properties={properties} />
       <Trust owner={owner} process={process} />
       <Contact owner={owner} contact={contact} />
+      <a
+        className="airbnb-fab"
+        href={contact.airbnb}
+        aria-label="Ver perfil de Airbnb"
+        title="Ver perfil de Airbnb"
+      >
+        <AirbnbMark />
+        <span className="sr-only">Ver perfil de Airbnb</span>
+      </a>
     </main>
   );
 }
@@ -46,6 +64,28 @@ function App() {
 function Hero({ owner, contact, hero, stats }) {
   return (
     <section className="hero">
+      <div className="hero-floaters" aria-hidden="true">
+        {heroAirbnbFloaters.map((floater, index) => (
+          <span
+            className="hero-floater"
+            key={`${index}-${floater.top || floater.bottom}`}
+            style={{
+              top: floater.top,
+              right: floater.right,
+              bottom: floater.bottom,
+              left: floater.left,
+              width: `${floater.size}px`,
+              height: `${floater.size}px`,
+              opacity: floater.opacity,
+              '--float-duration': floater.duration,
+              '--float-rotation': floater.rotation
+            }}
+          >
+            <AirbnbMark />
+          </span>
+        ))}
+      </div>
+
       <nav className="nav" aria-label="Navegacion principal">
         <a className="brand" href="#top" aria-label="Inicio">
           RP
@@ -63,13 +103,13 @@ function Hero({ owner, contact, hero, stats }) {
           <h1>{hero.title}</h1>
           <p className="hero-description">{hero.description}</p>
           <div className="hero-actions">
-            <a className="button primary" href={contact.whatsapp}>
+            <a className="button primary move" href={contact.whatsapp}>
               <MessageCircle aria-hidden="true" />
               {contact.primaryCta}
             </a>
-            <a className="button secondary" href="#alojamientos">
+            <a className="button secondary hero-alojamientos move" href="#alojamientos">
               <Building2 aria-hidden="true" />
-              Ver alojamientos gestionados
+              Alojamientos que confiaron
             </a>
           </div>
         </div>
@@ -101,10 +141,6 @@ function Hero({ owner, contact, hero, stats }) {
             </div>
           </aside>
 
-          <div className="welcome-hover" aria-label="Imagen de bienvenida al alojamiento">
-            <img src={welcomeHost} alt="Anfitrión saludando fuera de una casa moderna" />
-            <span>Vista de bienvenida</span>
-          </div>
         </div>
       </div>
 
@@ -117,6 +153,14 @@ function Hero({ owner, contact, hero, stats }) {
         ))}
       </div>
     </section>
+  );
+}
+
+function AirbnbMark() {
+  return (
+    <svg className="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M11.998 18.267c-1.352-1.696-2.147-3.182-2.412-4.455-.263-1.026-.159-1.847.291-2.464.477-.71 1.187-1.055 2.12-1.055s1.642.345 2.119 1.062c.446.61.558 1.432.286 2.464-.291 1.298-1.085 2.784-2.411 4.456zm9.597 1.14c-.185 1.245-1.034 2.278-2.2 2.782-2.251.98-4.48-.583-6.388-2.703 3.155-3.95 3.738-7.025 2.384-9.014-.795-1.14-1.933-1.695-3.393-1.695-2.943 0-4.561 2.49-3.925 5.38.37 1.564 1.351 3.342 2.915 5.33-.98 1.084-1.909 1.855-2.73 2.332-.636.344-1.245.557-1.828.608-2.677.399-4.776-2.198-3.823-4.877.132-.345.395-.98.845-1.961l.025-.053C4.94 12.36 6.717 8.75 8.759 4.746l.053-.132.58-1.115c.45-.822.635-1.19 1.351-1.643.345-.209.769-.314 1.245-.314.954 0 1.697.557 2.015 1.006.158.239.345.557.582.953l.558 1.088.08.159c2.04 4.002 3.819 7.605 5.276 10.789l.026.025.533 1.22.318.764c.243.612.294 1.221.213 1.857zm1.219-2.389c-.186-.583-.504-1.271-.9-2.093v-.03c-1.887-4.005-3.64-7.605-5.304-10.84l-.111-.162C15.313 1.461 14.464 0 11.998 0 9.56 0 8.524 1.694 7.465 3.897l-.081.16c-1.668 3.234-3.42 6.839-5.301 10.842v.053l-.558 1.219c-.21.504-.317.768-.345.847-1.35 3.712 1.432 6.972 4.8 6.972.027 0 .132 0 .264-.027h.372c1.75-.213 3.553-1.325 5.382-3.316 1.828 1.988 3.633 3.103 5.38 3.316h.372c.132.027.238.027.264.027 3.368.003 6.15-3.26 4.8-6.972z" />
+    </svg>
   );
 }
 
@@ -133,11 +177,18 @@ function SectionIntro({ eyebrow, title, description }) {
 function Services({ services }) {
   return (
     <section className="services-grid" aria-label="Servicios">
-      {services.map((service) => (
-        <article className="service-card" key={service.title}>
-          <CheckCircle2 aria-hidden="true" />
-          <h3>{service.title}</h3>
-          <p>{service.description}</p>
+      {services.map((service, index) => (
+        <article
+          className="service-card"
+          key={service.title}
+          style={{ '--service-gradient': serviceGradients[index % serviceGradients.length] }}
+        >
+          <span aria-hidden="true" />
+          <div className="service-card-content">
+            <CheckCircle2 aria-hidden="true" />
+            <h3>{service.title}</h3>
+            <p>{service.description}</p>
+          </div>
         </article>
       ))}
     </section>
@@ -179,12 +230,11 @@ function Properties({ properties }) {
     <section className="properties" id="alojamientos">
       <div className="section-heading">
         <div>
-          <p className="eyebrow">Alojamientos</p>
-          <h2>Alojamientos y casos de trabajo preparados para escalar</h2>
+          <p className="eyebrow">Casos reales</p>
+          <h2>Alojamientos que confiaron en mí</h2>
         </div>
         <p>
-          Cada alojamiento puede mostrar fotos, beneficios operativos, mejoras realizadas y links reales
-          cuando tengas todo documentado.
+          Cada alojamiento puede mostrar fotos reales, mejoras y el enlace al anuncio cuando ya está listo.
         </p>
       </div>
 
@@ -201,14 +251,9 @@ function Properties({ properties }) {
             onClick={() => setSelectedProperty(activeProperty)}
           >
             <img src={activeProperty.image} alt={`Foto de ${activeProperty.name}`} />
-            <span>
-              <Maximize2 aria-hidden="true" />
-              Ver caso
-            </span>
           </button>
 
           <div className="featured-copy">
-            <p className="property-location">{activeProperty.location}</p>
             <h3>{activeProperty.name}</h3>
             <p>{activeProperty.description}</p>
             <div className="highlight-row">
@@ -216,9 +261,9 @@ function Properties({ properties }) {
                 <span key={highlight}>{highlight}</span>
               ))}
             </div>
-            <button className="button dark" type="button" onClick={() => setSelectedProperty(activeProperty)}>
+            <button className="button dark move" type="button" onClick={() => setSelectedProperty(activeProperty)}>
               <LayoutGrid aria-hidden="true" />
-              Explorar trabajo
+              Ver alojamiento
             </button>
           </div>
         </article>
@@ -251,6 +296,8 @@ function Properties({ properties }) {
 }
 
 function PropertyModal({ property, onClose }) {
+  const modalImage = property.gallery[0] || property.image;
+
   return (
     <div className="modal-backdrop" role="presentation" onMouseDown={onClose}>
       <section
@@ -266,23 +313,15 @@ function PropertyModal({ property, onClose }) {
         </button>
 
         <div className="modal-gallery">
-          {property.gallery.map((image, index) => (
-            <img
-              className={index === 0 ? 'large' : ''}
-              src={image}
-              alt={`${property.name} imagen ${index + 1}`}
-              key={image}
-            />
-          ))}
+          <img src={modalImage} alt={`Foto principal de ${property.name}`} />
         </div>
 
         <div className="modal-content">
-          <p className="property-location">{property.location}</p>
           <h2 id="property-modal-title">{property.name}</h2>
           <p>{property.description}</p>
 
           <div className="modal-section">
-            <h3>Trabajo realizado</h3>
+            <h3>Proceso realizado</h3>
             <ul>
               {property.workDone.map((item) => (
                 <li key={item}>{item}</li>
@@ -295,10 +334,12 @@ function PropertyModal({ property, onClose }) {
             <p>{property.result}</p>
           </div>
 
-          <a className="text-link" href={property.link}>
-            Ver link del alojamiento
-            <ExternalLink aria-hidden="true" />
-          </a>
+          {property.link && (
+            <a className="text-link" href={property.link} target="_blank" rel="noreferrer">
+              Ver alojamiento en Airbnb
+              <ExternalLink aria-hidden="true" />
+            </a>
+          )}
         </div>
       </section>
     </div>
@@ -310,9 +351,9 @@ function Trust({ owner, process }) {
     <section className="trust">
       <div className="trust-copy">
         <p className="eyebrow">Confianza</p>
-        <h2>Un proceso claro para que sepas qué estoy haciendo con tu alojamiento</h2>
+        <h2>Un proceso claro para lanzar o mejorar tu alojamiento</h2>
         <p>
-          Trabajo con pasos simples para que sepas qué se revisa, qué se mejora y cómo se mantiene la
+          Trabajo con pasos simples para definir qué se crea, qué se ajusta y cómo se mantiene la
           operación bajo control.
         </p>
       </div>
@@ -324,9 +365,6 @@ function Trust({ owner, process }) {
           </div>
         ))}
       </div>
-      <figure className="process-photo">
-        <img src={profileProcess} alt={`${owner.name} trabajando en la gestión diaria`} />
-      </figure>
       <div className="signature">
         <UserCheck aria-hidden="true" />
         <span>{owner.name}</span>
@@ -338,40 +376,35 @@ function Trust({ owner, process }) {
 function Contact({ owner, contact }) {
   return (
     <section className="contact" id="contacto">
-      <div>
-        <p className="eyebrow">Contacto</p>
-        <h2>Hablemos de tu alojamiento</h2>
-        <p>
-          Si tienes una propiedad en Airbnb o quieres mejorar su operación, puedo ayudarte a identificar
-          qué conviene delegar primero.
-        </p>
+      <div className="contact-copy">
+        <div>
+          <p className="eyebrow">Contacto</p>
+          <h2>Hablemos de tu idea o tu alojamiento</h2>
+          <p>
+            Si vas a crear tu anuncio desde cero o ya tienes uno activo, te ayudo a ordenar el siguiente
+            paso.
+          </p>
+        </div>
+        <div className="contact-actions">
+          <a className="social-circle social-whatsapp move contact-whatsapp" href={contact.whatsapp} aria-label="WhatsApp">
+            <MessageCircle aria-hidden="true" className="social-icon" strokeWidth={2.2} />
+            <span className="sr-only">WhatsApp</span>
+          </a>
+          <a className="social-circle social-airbnb move" href={contact.airbnb} aria-label="Airbnb">
+            <AirbnbMark />
+            <span className="sr-only">Airbnb</span>
+          </a>
+        </div>
       </div>
-      <div className="contact-actions">
-        <a className="button primary" href={contact.whatsapp}>
-          <MessageCircle aria-hidden="true" />
-          WhatsApp
-        </a>
-        <a className="button secondary" href={contact.email}>
-          <Mail aria-hidden="true" />
-          Email
-        </a>
-        <a className="button secondary" href={contact.instagram}>
-          <ArrowRight aria-hidden="true" />
-          Instagram
-        </a>
+      <figure className="contact-photo">
+        <img src={profileProcess} alt={`${owner.name} trabajando en la gestión diaria`} />
+      </figure>
+      <div className="footer-copy">
+        <p className="footer-kicker">Creación de anuncios, fotografía y gestión Airbnb.</p>
+        <p className="footer-note">© {new Date().getFullYear()} {owner.name}. Diseñado para anfitriones que empiezan o ya operan.</p>
       </div>
-      <p className="footer-note">© {new Date().getFullYear()} {owner.name}. Portafolio profesional Airbnb.</p>
     </section>
   );
-}
-
-function getInitials(name) {
-  return name
-    .split(' ')
-    .map((part) => part[0])
-    .join('')
-    .slice(0, 2)
-    .toUpperCase();
 }
 
 export default App;
