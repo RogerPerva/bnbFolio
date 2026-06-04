@@ -1,10 +1,10 @@
-import casaAguacatesCover from '../assets/cases/casa-aguacates/Casa de los Aguacates.png';
+import casaAguacatesCover from '../assets/cases/casa-aguacates/casa-aguacates.optimized.jpg';
 import dcalliCover from '../assets/cases/dcalli/dcalli.png';
 import casaEnsuenoCover from '../assets/cases/ensueño/casa de ensueno.png';
-import habEnsuenoCover from '../assets/cases/hab-ensueno/hab-ensueno.png';
-import miradorSantaFeCover from '../assets/cases/miradorsantafe/mirador-santafe.png';
-import quintaLupitaGrande from '../assets/cases/quintalupita/quinta-lupita-grande.png';
-import quintaLupitaSlim from '../assets/cases/quintalupita-slim/quinta-lupita-slim.png';
+import habEnsuenoCover from '../assets/cases/hab-ensueno/hab-ensueno.optimized.jpg';
+import miradorSantaFeCover from '../assets/cases/miradorsantafe/mirador-santafe.optimized.jpg';
+import quintaLupitaGrande from '../assets/cases/quintalupita/quinta-lupita-grande.optimized.jpg';
+import quintaLupitaSlim from '../assets/cases/quintalupita-slim/quinta-lupita-slim.optimized.jpg';
 import santaFeCover from '../assets/cases/santafe/santafe.png';
 
 export const portfolio = {
@@ -14,7 +14,7 @@ export const portfolio = {
     location: 'México',
     profileImage: '',
     intro:
-      'Ayudo a anfitriones que empiezan desde cero o ya operan un alojamiento a crear, presentar y mejorar su anuncio con orientación, fotografía y una gestión clara.',
+      'Ayudo a anfitriones a convertir su alojamiento en un anuncio claro, atractivo y mejor operado, con fotografía, estrategia y seguimiento directo.',
     proofPoints: [
       'Creación de anuncios y fotografía',
       'Experiencia operando alojamientos reales',
@@ -31,38 +31,61 @@ export const portfolio = {
     eyebrow: 'Gestión Airbnb profesional',
     title: 'Gestión Airbnb para lanzar o mejorar tu alojamiento',
     description:
-      'Si estás arrancando desde cero o ya tienes un alojamiento activo, te ayudo con creación de anuncio, fotografía, orientación y operación clara.'
+      'Acompaño a anfitriones que quieren publicar, ordenar u optimizar su alojamiento para comunicar mejor su valor y atender con más claridad.'
   },
   stats: [
-    { value: 'Creación', label: 'de anuncios' },
-    { value: 'Foto', label: 'y orientación' },
-    { value: '1:1', label: 'Trato directo' }
+    { value: 'Lanzamiento', label: 'de anuncios' },
+    { value: 'Imagen', label: 'y presentacion' },
+    { value: 'Soporte', label: 'directo' }
   ],
   services: [
     {
       title: 'Creación del anuncio',
       description:
-        'Texto, estructura y fotos base para lanzar tu alojamiento con una presentación clara.'
+        'Estructuro tu anuncio con textos, fotos y detalles clave para que el huésped entienda rápido por qué reservar.'
     },
     {
       title: 'Operación diaria',
       description:
-        'Coordinación de reservas, mensajes, check-in, check-out, incidencias y seguimiento operativo.'
+        'Ordeno mensajes, reservas, check-in, check-out e incidencias para que la operación sea más simple y confiable.'
     },
     {
       title: 'Optimización visual',
       description:
-        'Revisión de descripción, fotos, reglas y amenidades para comunicar mejor el valor del espacio.'
+        'Mejoro fotos, descripción, reglas y amenidades para aumentar confianza y presentar mejor el espacio.'
     },
     {
       title: 'Atención al huésped',
       description:
-        'Mensajes claros, instrucciones prácticas y seguimiento para reducir dudas y mejorar la experiencia.'
+        'Creo una comunicación clara y práctica para reducir dudas antes, durante y después de cada estancia.'
     },
     {
       title: 'Mejora continua',
       description:
-        'Revisión de comentarios, oportunidades de mejora y ajustes para mantener una mejor operación.'
+        'Reviso comentarios, desempeño y oportunidades para ajustar el anuncio y sostener una mejor experiencia.'
+    }
+  ],
+  reviews: [
+    {
+      name: 'David Alberto',
+      location: 'Cancún, México',
+      stay: 'Estancia con niños',
+      text:
+        'La atención fue clara y oportuna. El hospedaje cumplió con lo prometido: cómodo, limpio y adecuado.'
+    },
+    {
+      name: 'Fernando',
+      location: 'Mesquite, Texas',
+      stay: 'Estancia de varias noches',
+      text:
+        'Rogelio respondió rápido a cualquier duda. El apartamento fue cómodo y definitivamente volvería.'
+    },
+    {
+      name: 'Jennifer',
+      location: 'Juchitán de Zaragoza, México',
+      stay: 'Estancia de varias noches',
+      text:
+        'El alojamiento estaba limpio, organizado y como aparece en las fotos. Una experiencia tranquila, cómoda y segura.'
     }
   ],
   properties: [
@@ -206,9 +229,9 @@ export const portfolio = {
     }
   ],
   process: [
-    'Conozco tu propiedad, tus objetivos y el estado actual del anuncio.',
-    'Definimos qué parte de la operación necesitas delegar o mejorar.',
-    'Ordeno la comunicación, calendario, instrucciones y seguimiento operativo.',
-    'Revisamos resultados y ajustes para mantener una gestión clara.'
+    'Reviso tu propiedad, tus objetivos y el estado actual del anuncio.',
+    'Definimos que conviene crear, ajustar o delegar primero.',
+    'Ordeno fotos, textos, comunicacion e instrucciones operativas.',
+    'Revisamos comentarios y mejoras para mantener una experiencia clara.'
   ]
 };
