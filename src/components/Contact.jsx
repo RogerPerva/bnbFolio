@@ -3,6 +3,8 @@ import { MessageCircle, Share2 } from 'lucide-react';
 import profileProcess from '../assets/reference-pictures/perfil2.optimized.jpg';
 import AirbnbMark from './AirbnbMark.jsx';
 
+const SHARE_URL = 'https://rogerperva.github.io/bnbFolio/';
+
 function Contact({ owner, contact }) {
   return (
     <section className="contact" id="contacto">
@@ -51,8 +53,7 @@ function ShareButton() {
   const handleShare = async () => {
     const shareData = {
       title: 'Rogelio Pervaz | Gestion Airbnb',
-      text: 'Portafolio de gestion, fotografia y optimizacion de alojamientos Airbnb.',
-      url: window.location.href
+      url: SHARE_URL
     };
 
     try {
@@ -61,7 +62,7 @@ function ShareButton() {
         return;
       }
 
-      await navigator.clipboard.writeText(shareData.url);
+      await navigator.clipboard.writeText(SHARE_URL);
       setLabel('Copiado');
       window.setTimeout(() => setLabel('Compartir'), 1800);
     } catch {
