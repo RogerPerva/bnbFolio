@@ -1593,8 +1593,7 @@ main {
     height: 260px;
   }
 
-  .hero-actions,
-  .contact-actions {
+  .hero-actions {
     flex-direction: column;
   }
 
@@ -1609,6 +1608,21 @@ main {
 
   .contact {
     margin-top: 32px;
+  }
+
+  .contact-actions {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .contact-actions .social-circle {
+    width: 58px;
+    height: 58px;
+  }
+
+  .contact-actions .social-icon {
+    width: 24px;
+    height: 24px;
   }
 
   .contact-photo {
