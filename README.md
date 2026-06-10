@@ -84,19 +84,19 @@ Los componentes visuales estan separados en `src/components` para mantener `App.
 
 ## Agregar o cambiar imagenes
 
-Las imagenes locales estan en `src/assets`.
-Cuando exista una version `*.optimized.jpg`, usa esa variante en los imports para reducir el peso del build.
+Las imagenes locales estan en `src/assets`. El sitio importa solo archivos `.webp` para mantener bajo el peso del build.
 
 Para casos nuevos:
 
-1. Agrega la imagen dentro de `src/assets/cases/<nombre-del-caso>/`.
-2. Importa la imagen en `src/content/portfolio.js`.
-3. Agrega el nuevo objeto dentro de `properties`.
+1. Agrega la imagen (jpg o png) dentro de `src/assets/cases/<nombre-del-caso>/`.
+2. Ejecuta `npm run optimize-images` para generar la version `.webp` (1600px max, calidad 78).
+3. Importa la version `.webp` en `src/content/portfolio.js` y elimina el original.
+4. Agrega el nuevo objeto dentro de `properties`.
 
 Ejemplo:
 
 ```js
-import nuevaCasaCover from '../assets/cases/nueva-casa/cover.png';
+import nuevaCasaCover from '../assets/cases/nueva-casa/cover.webp';
 
 {
   name: 'Nueva Casa',

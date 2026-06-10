@@ -38,7 +38,7 @@
 
 Diagnóstico realizado el 2026-06-10 con Playwright (escritorio 1440px y móvil 390px) sobre `http://localhost:5173`.
 
-> **Estado (2026-06-10):** Bloques A–E ejecutados. Capturas finales en `final-desktop.jpeg` y `final-mobile.jpeg`. Pendiente: revisión del dueño y commit.
+> **Estado (2026-06-10):** Bloques A–E ejecutados. Pendiente: revisión del dueño y commit. (Las capturas de verificación se generan con Playwright al momento y ya no se versionan; ver `.gitignore`.)
 >
 > **Iteración 4 (2026-06-10, conversión):** casos reordenados de mejor a peor resultado (D'Calli primero con su métrica de ocupación >75%); el resultado de cada caso ahora es visible en la tarjeta del carrusel (línea en terracota con ícono, sin abrir el modal); fricción del CTA reducida con 3 mini-pasos discretos en Contacto (qué pasa al escribir: WhatsApp → revisión → sin costo ni compromiso), redactados solo con hechos ya presentes en el contenido.
 >

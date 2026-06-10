@@ -32,5 +32,6 @@ npm run preview
 - No agregar librerias sin justificar.
 - No subir secretos ni credenciales.
 - Cuidar responsive, accesibilidad y rendimiento de imagenes.
-- Preferir assets `.optimized.jpg` cuando existan para mantener bajo el peso del build.
+- Usar solo assets `.webp`; las imagenes nuevas (jpg/png) se convierten con `npm run optimize-images`.
+- Las fuentes Geist estan autohospedadas en `src/assets/fonts/`; no usar links a Google Fonts.
 - Antes de desplegar, validar con `npm run build`.

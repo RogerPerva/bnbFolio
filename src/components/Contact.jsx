@@ -27,7 +27,7 @@ function Contact({ owner, contact }) {
           </li>
           <li>
             <span aria-hidden="true">03</span>
-            Te digo qué conviene ajustar primero, sin costo ni compromiso.
+            Te propongo por dónde empezar y cómo puedo ayudarte, sin costo ni compromiso.
           </li>
         </ol>
         <div className="contact-actions">

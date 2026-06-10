@@ -4,3 +4,5 @@ dist/
 .DS_Store
 .idea/
 src/assets/cases/reviews/
+.playwright-mcp/
+*.jpeg
