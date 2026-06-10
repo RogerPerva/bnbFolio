@@ -1,0 +1,509 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - img [ref=e4] [cursor=pointer]
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "How It Works" [ref=e9] [cursor=pointer]:
+          - /url: "#how-it-works"
+      - listitem [ref=e10]:
+        - link "Why Collective?" [ref=e11] [cursor=pointer]:
+          - /url: "#features"
+      - listitem [ref=e12]:
+        - link "Case Studies" [ref=e13] [cursor=pointer]:
+          - /url: "#testimonials"
+      - listitem [ref=e14]:
+        - link "FAQ" [ref=e15] [cursor=pointer]:
+          - /url: "#faq"
+      - listitem [ref=e16]:
+        - link "Pricing" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e18]:
+      - link "Login" [ref=e19] [cursor=pointer]:
+        - /url: "#"
+      - link "Contact Us" [ref=e20] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: New
+        - generic [ref=e25]: Agency Growth Platform
+        - generic [ref=e26]: Try now ›
+      - heading "Power Agency Growth Through Partners" [level=1] [ref=e27]:
+        - text: Power Agency Growth
+        - text: Through Partners
+      - paragraph [ref=e28]: Collective OS connects you with vetted partners to win more deals, expand services, and grow revenue — without hiring.
+      - generic [ref=e29]:
+        - button "Join the Network" [ref=e30]
+        - button "Watch & See How" [ref=e31]
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - img [ref=e36]
+          - generic [ref=e38]: Verified Partners
+          - generic [ref=e40]: 6M+
+        - generic [ref=e41]:
+          - img [ref=e42]
+          - generic [ref=e44]: Partners
+      - generic [ref=e46]:
+        - heading "Discovery" [level=4] [ref=e47]
+        - paragraph [ref=e48]: 8 deals
+        - generic [ref=e49]:
+          - generic [ref=e50]: $1,404
+          - generic [ref=e51]: $42,000
+        - generic [ref=e54]: 41%
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - img [ref=e58]
+          - text: Multi-language Support
+        - generic [ref=e61]:
+          - generic [ref=e62]: 🇺🇸
+          - generic [ref=e63]: 🇨🇳
+          - generic [ref=e64]: 🇩🇪
+          - generic [ref=e65]: 🇧🇷
+          - generic [ref=e66]: 6M+
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - heading "Full Stack Development Partner" [level=4] [ref=e70]
+          - generic [ref=e71]: $15,000 - $25,000
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - img [ref=e75]
+              - text: Startup
+            - generic [ref=e80]: "|"
+            - generic [ref=e81]:
+              - img [ref=e82]
+              - text: Remote
+            - generic [ref=e85]: "|"
+            - generic [ref=e86]:
+              - img [ref=e87]
+              - text: 2 days ago
+          - generic [ref=e89]: High
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img [ref=e94]
+            - text: Collective OS
+          - paragraph [ref=e97]: Main
+          - navigation [ref=e98]:
+            - link "Overview" [ref=e99] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e101]
+              - text: Overview
+            - link "Partners network" [ref=e106] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e108]
+              - text: Partners network
+            - link "Projects" [ref=e113] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e115]
+              - text: Projects
+            - link "Messages" [ref=e119] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e121]
+              - text: Messages
+            - link "Case studies" [ref=e123] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e125]
+              - text: Case studies
+            - link "Analytics" [ref=e128] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e130]
+              - text: Analytics
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - img [ref=e134]
+              - textbox "Search" [ref=e137]
+            - generic [ref=e138]:
+              - generic [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]: Farhad hosen
+                - generic [ref=e142]: skfarhad97@
+              - button [ref=e143]:
+                - img [ref=e144]
+              - button [ref=e147]:
+                - img [ref=e148]
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - heading "Overview" [level=2] [ref=e154]
+                - paragraph [ref=e155]: Welcome back, Rahim. Here is what is happening today.
+              - button "New Deal" [ref=e156]:
+                - img [ref=e157]
+                - text: New Deal
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]:
+                    - text: Total Revenue
+                    - img [ref=e162]
+                  - img [ref=e165]
+                - generic [ref=e168]: $284,500.00
+                - generic [ref=e169]:
+                  - generic [ref=e170]: +12.5%
+                  - generic [ref=e171]: last month
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - generic [ref=e174]:
+                    - text: Active Partners
+                    - img [ref=e175]
+                  - img [ref=e178]
+                - generic [ref=e181]: 500k Partners
+                - generic [ref=e182]:
+                  - generic [ref=e183]: +8.1%
+                  - generic [ref=e184]: New this month
+              - generic [ref=e185]:
+                - generic [ref=e186]:
+                  - generic [ref=e187]:
+                    - text: Open Opportunities
+                    - img [ref=e188]
+                  - img [ref=e191]
+                - generic [ref=e194]: "23.00"
+                - generic [ref=e195]:
+                  - generic [ref=e196]: "-2%"
+                  - generic [ref=e197]: Last week
+              - generic [ref=e198]:
+                - generic [ref=e199]:
+                  - generic [ref=e200]:
+                    - text: Win Rate
+                    - img [ref=e201]
+                  - img [ref=e204]
+                - generic [ref=e207]: 88%
+                - generic [ref=e208]:
+                  - generic [ref=e209]: +4.2%
+                  - generic [ref=e210]: last month
+            - generic [ref=e211]:
+              - generic:
+                - heading "Recent Opportunities" [level=3]
+  - generic [ref=e214]:
+    - generic [ref=e215]:
+      - generic [ref=e216]:
+        - img [ref=e217]
+        - text: How It Works
+      - heading "Three Steps to Growth" [level=2] [ref=e220]
+      - paragraph [ref=e221]: From sign-up to closing deals — it only takes minutes to get started. Here's what happens.
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - img [ref=e227]
+            - generic [ref=e232]:
+              - generic [ref=e233]: Step 01
+              - heading "Create Your Agency Profile" [level=3] [ref=e234]
+          - paragraph [ref=e235]: Set up your agency with services, specializations, and team size. Our algorithm immediately starts matching you with the best-fit partners.
+          - link "Learn more" [ref=e236] [cursor=pointer]:
+            - /url: "#"
+            - text: Learn more
+            - img [ref=e237]
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - generic [ref=e245]: PF
+              - generic [ref=e246]:
+                - heading "PixelForge Studios" [level=5] [ref=e247]
+                - paragraph [ref=e248]:
+                  - img [ref=e249]
+                  - text: Berlin, DE • 12 members
+            - generic [ref=e254]: Online
+          - generic [ref=e255]:
+            - paragraph [ref=e256]: Specializations
+            - generic [ref=e257]:
+              - generic [ref=e258]: React / Next.js
+              - generic [ref=e259]: UI/UX Design
+              - generic [ref=e260]: Mobile Apps
+              - generic [ref=e261]: Branding
+              - generic [ref=e262]: DevOps
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - paragraph [ref=e265]: Deals Won
+              - paragraph [ref=e266]: "47"
+              - paragraph [ref=e267]: +12 this Q
+            - generic [ref=e268]:
+              - paragraph [ref=e269]: Avg. Deal
+              - paragraph [ref=e270]: $18.5k
+              - paragraph [ref=e271]: ↑ 23%
+            - generic [ref=e272]:
+              - paragraph [ref=e273]: Rating
+              - paragraph [ref=e274]: "4.9"
+              - paragraph [ref=e275]: ★★★★★
+          - generic [ref=e277]:
+            - generic [ref=e278]: Profile Completeness
+            - generic [ref=e279]: 92%
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - generic [ref=e284]:
+            - img [ref=e286]
+            - generic [ref=e288]:
+              - generic [ref=e289]: Step 02
+              - heading "AI-Powered Smart Matching" [level=3] [ref=e290]
+          - paragraph [ref=e291]: Our algorithm analyzes 40+ data points — skills, culture fit, timezone, deal history — to surface the highest-probability partnerships.
+          - link "Learn more" [ref=e292] [cursor=pointer]:
+            - /url: "#"
+            - text: Learn more
+            - img [ref=e293]
+        - generic [ref=e298]:
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - img [ref=e301]
+              - generic [ref=e304]: React + Design partners…
+            - img [ref=e306] [cursor=pointer]
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - img [ref=e311]
+              - generic [ref=e314]: AI Matched
+            - generic [ref=e315]: 3 high-compatibility partners found
+          - generic [ref=e316]:
+            - generic [ref=e317]:
+              - generic [ref=e318]:
+                - generic [ref=e319]:
+                  - generic [ref=e320]: GrowthStack Agency
+                  - generic [ref=e321]: ⚡ TOP MATCH
+                - paragraph [ref=e322]:
+                  - img [ref=e323]
+                  - text: NYC, US
+              - generic [ref=e327]: 97%
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - generic [ref=e331]: Nordic Digital
+                - paragraph [ref=e332]:
+                  - img [ref=e333]
+                  - text: Stockholm, SE
+              - generic [ref=e337]: 94%
+            - generic [ref=e338]:
+              - generic [ref=e339]:
+                - generic [ref=e341]: CodeCraft Labs
+                - paragraph [ref=e342]:
+                  - img [ref=e343]
+                  - text: London, UK
+              - generic [ref=e347]: 89%
+          - generic [ref=e348]:
+            - paragraph [ref=e349]: Match Breakdown — GrowthStack
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]: Skills
+                - generic [ref=e355]: 98%
+              - generic [ref=e356]:
+                - generic [ref=e357]: Culture
+                - generic [ref=e360]: 95%
+              - generic [ref=e361]:
+                - generic [ref=e362]: Timezone
+                - generic [ref=e365]: 100%
+      - generic [ref=e366]:
+        - generic [ref=e367]:
+          - generic [ref=e368]:
+            - img [ref=e370]
+            - generic [ref=e373]:
+              - generic [ref=e374]: Step 03
+              - heading "Collaborate & Close Deals" [level=3] [ref=e375]
+          - paragraph [ref=e376]: Manage your entire pipeline in one workspace. Track deals from discovery to close with built-in revenue sharing and real-time analytics.
+          - link "Learn more" [ref=e377] [cursor=pointer]:
+            - /url: "#"
+            - text: Learn more
+            - img [ref=e378]
+        - generic [ref=e383]:
+          - generic [ref=e384]:
+            - generic [ref=e385]:
+              - heading "Deal Pipeline" [level=5] [ref=e386]
+              - paragraph [ref=e387]: Q1 2026 • 12 active deals
+            - generic [ref=e390]: "+5"
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - generic [ref=e395]: Discovery
+              - paragraph [ref=e396]: $42k
+              - paragraph [ref=e397]: 5 deals
+            - generic [ref=e398]:
+              - generic [ref=e401]: Proposal
+              - paragraph [ref=e402]: $68k
+              - paragraph [ref=e403]: 4 deals
+            - generic [ref=e404]:
+              - generic [ref=e407]: Won
+              - paragraph [ref=e408]: $85k
+              - paragraph [ref=e409]: 3 deals
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - generic [ref=e412]:
+                - paragraph [ref=e413]: Latest Won Deal
+                - heading "E-Commerce Platform Redesign" [level=5] [ref=e414]
+              - generic [ref=e415]: CLOSED WON
+            - generic [ref=e416]:
+              - generic [ref=e419]:
+                - img [ref=e420]
+                - text: Joint venture with GrowthStack
+              - generic [ref=e425]: $24,500
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - img [ref=e428]
+              - generic [ref=e431]: Revenue this quarter
+            - generic [ref=e432]:
+              - generic [ref=e433]: $195,000
+              - generic [ref=e434]: +34%
+    - generic [ref=e437] [cursor=pointer]:
+      - img [ref=e438]
+      - text: Start Your Journey
+      - img [ref=e441]
+  - generic [ref=e445]:
+    - generic [ref=e446]:
+      - generic [ref=e447]: Features
+      - heading "Why Agencies Choose Us" [level=2] [ref=e448]
+      - paragraph [ref=e449]: Everything you need to build, manage, and scale agency partnerships.
+    - generic [ref=e450]:
+      - generic [ref=e451]:
+        - img [ref=e453]
+        - heading "Vetted Network" [level=3] [ref=e455]
+        - paragraph [ref=e456]: Every partner is reviewed and verified before joining. Quality over quantity ensures better deals.
+      - generic [ref=e457]:
+        - img [ref=e459]
+        - heading "Revenue Tracking" [level=3] [ref=e462]
+        - paragraph [ref=e463]: Real-time dashboards show pipeline health, deal flow, and partner performance at a glance.
+      - generic [ref=e464]:
+        - img [ref=e466]
+        - heading "Global Reach" [level=3] [ref=e469]
+        - paragraph [ref=e470]: Connect with agencies across 50+ countries. Language support and timezone matching built in.
+      - generic [ref=e471]:
+        - img [ref=e473]
+        - heading "Lightning Fast" [level=3] [ref=e476]
+        - paragraph [ref=e477]: "Average time from match to first deal: 14 days. Our algorithm optimizes for speed to revenue."
+      - generic [ref=e478]:
+        - img [ref=e480]
+        - heading "Smart Matching" [level=3] [ref=e484]
+        - paragraph [ref=e485]: AI-powered recommendations learn from your wins and surface the highest-probability partnerships.
+      - generic [ref=e486]:
+        - img [ref=e488]
+        - heading "Deep Analytics" [level=3] [ref=e489]
+        - paragraph [ref=e490]: Understand which partners, services, and deal types generate the most value for your agency.
+  - generic [ref=e492]:
+    - generic [ref=e493]:
+      - generic [ref=e494]: Testimonials
+      - heading "Loved by Agencies Worldwide" [level=2] [ref=e495]
+      - paragraph [ref=e496]: Join 2,000+ agency founders who are growing through partnerships.
+    - generic [ref=e497]:
+      - generic [ref=e498]:
+        - generic [ref=e499]:
+          - img [ref=e500]
+          - img [ref=e502]
+          - img [ref=e504]
+          - img [ref=e506]
+          - img [ref=e508]
+        - paragraph [ref=e510]: “Collective OS helped us find 3 white-label partners in our first month. Our revenue jumped 40% without adding a single employee.”
+        - generic [ref=e511]:
+          - img "Sarah Chen" [ref=e512]
+          - generic [ref=e513]:
+            - paragraph [ref=e514]: Sarah Chen
+            - paragraph [ref=e515]: CEO, PixelForge Studios
+      - generic [ref=e516]:
+        - generic [ref=e517]:
+          - img [ref=e518]
+          - img [ref=e520]
+          - img [ref=e522]
+          - img [ref=e524]
+          - img [ref=e526]
+        - paragraph [ref=e528]: “The matching algorithm is incredible. Every partner recommendation has been spot-on for our niche in fintech development.”
+        - generic [ref=e529]:
+          - img "Marcus Rivera" [ref=e530]
+          - generic [ref=e531]:
+            - paragraph [ref=e532]: Marcus Rivera
+            - paragraph [ref=e533]: Founder, GrowthStack Agency
+      - generic [ref=e534]:
+        - generic [ref=e535]:
+          - img [ref=e536]
+          - img [ref=e538]
+          - img [ref=e540]
+          - img [ref=e542]
+          - img [ref=e544]
+        - paragraph [ref=e546]: “We went from a regional agency to serving clients globally, all through the partnerships we built on this platform.”
+        - generic [ref=e547]:
+          - img "Emma Larsson" [ref=e548]
+          - generic [ref=e549]:
+            - paragraph [ref=e550]: Emma Larsson
+            - paragraph [ref=e551]: COO, Nordic Digital
+  - generic [ref=e553]:
+    - generic [ref=e554]:
+      - generic [ref=e555]: FAQ
+      - heading "Frequently Asked Questions" [level=2] [ref=e556]
+    - generic [ref=e557]:
+      - generic [ref=e558]:
+        - button "How does Collective OS match agencies?" [ref=e559]:
+          - generic [ref=e560]: How does Collective OS match agencies?
+          - img [ref=e561]
+        - paragraph [ref=e563]: Our AI engine analyzes over 40 data points including service offerings, industry focus, team size, geographic coverage, and past performance to recommend the highest-compatibility partners.
+      - generic [ref=e564]:
+        - button "Is there a free plan available?" [ref=e565]:
+          - generic [ref=e566]: Is there a free plan available?
+          - img [ref=e567]
+        - paragraph [ref=e569]: Yes! Our Starter plan is free forever and includes up to 5 active partner connections, basic analytics, and full access to the partner directory.
+      - generic [ref=e570]:
+        - button "How long does it take to find a partner?" [ref=e571]:
+          - generic [ref=e572]: How long does it take to find a partner?
+          - img [ref=e573]
+        - paragraph [ref=e575]: Most agencies receive their first high-quality match within 48 hours of completing their profile. The average time to first closed deal is 14 days.
+      - generic [ref=e576]:
+        - button "What types of agencies use Collective OS?" [ref=e577]:
+          - generic [ref=e578]: What types of agencies use Collective OS?
+          - img [ref=e579]
+        - paragraph [ref=e581]: We serve digital agencies of all sizes — from boutique 5-person shops to 200+ person firms — across web dev, marketing, design, and consulting.
+      - generic [ref=e582]:
+        - button "Can I manage deals directly on the platform?" [ref=e583]:
+          - generic [ref=e584]: Can I manage deals directly on the platform?
+          - img [ref=e585]
+        - paragraph [ref=e587]: Absolutely. Our built-in CRM lets you track deals from lead to close, assign team members, and calculate revenue share — all in one place.
+  - contentinfo [ref=e588]:
+    - generic [ref=e589]:
+      - heading "Ready to Grow?" [level=2] [ref=e590]
+      - paragraph [ref=e591]: Join 2,000+ agencies already building profitable partnerships on Collective OS.
+      - generic [ref=e592]:
+        - button "Start Free Today" [ref=e593]
+        - button "Book a Demo" [ref=e594]
+    - generic [ref=e595]:
+      - generic [ref=e596]:
+        - generic [ref=e597]:
+          - generic [ref=e598]:
+            - img [ref=e599]
+            - text: Collective OS
+          - paragraph [ref=e602]: The agency partnership platform built for growth.
+        - generic [ref=e603]:
+          - heading "Product" [level=4] [ref=e604]
+          - list [ref=e605]:
+            - listitem [ref=e606]:
+              - link "Features" [ref=e607] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e608]:
+              - link "Pricing" [ref=e609] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e610]:
+              - link "Integrations" [ref=e611] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e612]:
+              - link "Changelog" [ref=e613] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e614]:
+          - heading "Resources" [level=4] [ref=e615]
+          - list [ref=e616]:
+            - listitem [ref=e617]:
+              - link "Blog" [ref=e618] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e619]:
+              - link "Case Studies" [ref=e620] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e621]:
+              - link "Documentation" [ref=e622] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e623]:
+              - link "Support" [ref=e624] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e625]:
+          - heading "Company" [level=4] [ref=e626]
+          - list [ref=e627]:
+            - listitem [ref=e628]:
+              - link "About" [ref=e629] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e630]:
+              - link "Careers" [ref=e631] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e632]:
+              - link "Contact" [ref=e633] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e634]:
+              - link "Legal" [ref=e635] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e636]: © 2026 Collective OS. All rights reserved.
+  - alert [ref=e637]

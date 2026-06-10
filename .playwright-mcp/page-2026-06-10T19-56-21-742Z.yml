@@ -1,0 +1,263 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5] [cursor=pointer]:
+        - img [ref=e6]
+        - generic [ref=e9]: Floria.
+      - navigation [ref=e10]:
+        - link "Shop" [ref=e11] [cursor=pointer]:
+          - /url: "#shop"
+        - link "Weddings" [ref=e12] [cursor=pointer]:
+          - /url: "#weddings"
+        - link "Process" [ref=e13] [cursor=pointer]:
+          - /url: "#process"
+        - link "Journal" [ref=e14] [cursor=pointer]:
+          - /url: "#journal"
+      - button "Order Custom" [ref=e16]:
+        - generic [ref=e17]: Order Custom
+    - generic [ref=e18]:
+      - img "Dark botanical background" [ref=e20]
+      - img "Floating structural flora" [ref=e23] [cursor=pointer]
+      - generic [ref=e25]:
+        - generic [ref=e26]: Studio & Archive
+        - heading "Botanic Architecture." [level=1] [ref=e27]:
+          - text: Botanic
+          - text: Architecture.
+        - paragraph [ref=e28]: We design spaces and moments using rare, sculptural flora. Rejecting the generic bouquet for atmospheric living sculptures.
+        - generic [ref=e29]:
+          - button "View Collections" [ref=e30]:
+            - generic [ref=e31]: View Collections
+          - button "Our Manifesto" [ref=e32]:
+            - generic [ref=e33]: Our Manifesto
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Curated Assemblages." [level=2] [ref=e38]
+          - paragraph [ref=e39]: Living art pieces designed for atmospheric presence. Not just flowers, but structural botanical statements.
+        - link "View Complete Archive" [ref=e40] [cursor=pointer]:
+          - /url: /shop
+          - generic [ref=e41]: View Complete Archive
+          - img [ref=e43]
+      - generic [ref=e45]:
+        - generic [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]:
+            - img "Ethereal Greens" [ref=e48]
+            - generic [ref=e51]: Quick Add
+          - generic [ref=e52]:
+            - heading "Ethereal Greens" [level=3] [ref=e53]
+            - generic [ref=e54]: $120
+        - generic [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]:
+            - img "Midnight Orchid" [ref=e57]
+            - generic [ref=e60]: Quick Add
+          - generic [ref=e61]:
+            - heading "Midnight Orchid" [level=3] [ref=e62]
+            - generic [ref=e63]: $185
+        - generic [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]:
+            - img "Blush Peony Structura" [ref=e66]
+            - generic [ref=e69]: Quick Add
+          - generic [ref=e70]:
+            - heading "Blush Peony Structura" [level=3] [ref=e71]
+            - generic [ref=e72]: $95
+    - generic [ref=e73]:
+      - generic:
+        - img "Process Flowers"
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - heading "The Architecture of Nature." [level=2] [ref=e77]:
+            - text: The Architecture
+            - text: of Nature.
+          - paragraph [ref=e78]: Our process is a deliberate rejection of mass-market floristry. Every commission is treated as a site-specific installation.
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - generic [ref=e82]: "01"
+            - heading "Consultation & Vision" [level=3] [ref=e83]
+            - paragraph [ref=e84]: We explore your aesthetic, the spatial architecture, and the invisible emotional tone you wish to set.
+          - generic [ref=e85]:
+            - generic [ref=e87]: "02"
+            - heading "Botanical Sourcing" [level=3] [ref=e88]
+            - paragraph [ref=e89]: Procuring rare, seasonal stems from strictly local growers and specialized independent farms.
+          - generic [ref=e90]:
+            - generic [ref=e92]: "03"
+            - heading "Structural Design" [level=3] [ref=e93]
+            - paragraph [ref=e94]: Applying Ikebana principles and modern proportions to build a living sculpture that breathes.
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - heading "The Archives." [level=2] [ref=e98]
+        - paragraph [ref=e99]: Explore our categorical studies in floral architecture.
+      - generic [ref=e100]:
+        - generic [ref=e101] [cursor=pointer]:
+          - img "The Wedding Archive" [ref=e102]
+          - generic [ref=e104]:
+            - heading "The Wedding Archive" [level=3] [ref=e105]
+            - paragraph [ref=e106]: Sculptural centerpieces and avant-garde bridal arrangements.
+        - generic [ref=e107] [cursor=pointer]:
+          - img "Weekly Studio Subs" [ref=e108]
+          - generic [ref=e110]:
+            - heading "Weekly Studio Subs" [level=3] [ref=e111]
+            - paragraph [ref=e112]: Seasonal rotations delivered.
+        - generic [ref=e113] [cursor=pointer]:
+          - img "Dried & Preserved" [ref=e114]
+          - generic [ref=e116]:
+            - heading "Dried & Preserved" [level=3] [ref=e117]
+            - paragraph [ref=e118]: Eternal structures.
+        - generic [ref=e119] [cursor=pointer]:
+          - img "Corporate Installs" [ref=e120]
+          - generic [ref=e122]:
+            - heading "Corporate Installs" [level=3] [ref=e123]
+            - paragraph [ref=e124]: Atmospheric lobbying.
+        - generic [ref=e125] [cursor=pointer]:
+          - img "Workshops" [ref=e126]
+          - generic [ref=e128]:
+            - heading "Workshops" [level=3] [ref=e129]
+            - paragraph [ref=e130]: Master the structure of nature.
+    - generic [ref=e131]:
+      - heading "Clarity." [level=2] [ref=e133]
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - img [ref=e137]
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - img [ref=e141]
+              - img [ref=e143]
+              - img [ref=e145]
+              - img [ref=e147]
+              - img [ref=e149]
+            - paragraph [ref=e151]: Floria totally transformed our gallery space. It didn't look like flowers; it looked like living art.
+            - generic [ref=e152]:
+              - generic [ref=e153]: A
+              - generic [ref=e154]:
+                - generic [ref=e155]: Amara Osei
+                - generic [ref=e156]: Gallery Director
+        - generic [ref=e157]:
+          - img [ref=e158]
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - img [ref=e162]
+              - img [ref=e164]
+              - img [ref=e166]
+              - img [ref=e168]
+              - img [ref=e170]
+            - paragraph [ref=e172]: Their structural approach to botanicals is unparalleled in the city. Not just a bouquet, an architectural statement.
+            - generic [ref=e173]:
+              - generic [ref=e174]: M
+              - generic [ref=e175]:
+                - generic [ref=e176]: Markus Vance
+                - generic [ref=e177]: Product Lead, Aethos
+        - generic [ref=e178]:
+          - img [ref=e179]
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - img [ref=e183]
+              - img [ref=e185]
+              - img [ref=e187]
+              - img [ref=e189]
+              - img [ref=e191]
+            - paragraph [ref=e193]: I've never experienced an installation so deeply attuned to natural workflows. It responds with quiet intelligence.
+            - generic [ref=e194]:
+              - generic [ref=e195]: J
+              - generic [ref=e196]:
+                - generic [ref=e197]: Julian Thorne
+                - generic [ref=e198]: Founder, Synthetix
+        - generic [ref=e199]:
+          - img [ref=e200]
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - img [ref=e204]
+              - img [ref=e206]
+              - img [ref=e208]
+              - img [ref=e210]
+              - img [ref=e212]
+            - paragraph [ref=e214]: Elegant, fluid, and brilliantly executed. It stands out by whispering instead of shouting. A profound paradigm shift.
+            - generic [ref=e215]:
+              - generic [ref=e216]: E
+              - generic [ref=e217]:
+                - generic [ref=e218]: Elena Rostova
+                - generic [ref=e219]: Tech Curator
+        - generic [ref=e220]:
+          - img [ref=e221]
+          - generic [ref=e223]:
+            - generic [ref=e224]:
+              - img [ref=e225]
+              - img [ref=e227]
+              - img [ref=e229]
+              - img [ref=e231]
+              - img [ref=e233]
+            - paragraph [ref=e235]: The attention to the smallest interactions makes every room feel rewarding. The performance is staggering, yet serene.
+            - generic [ref=e236]:
+              - generic [ref=e237]: D
+              - generic [ref=e238]:
+                - generic [ref=e239]: David Kim
+                - generic [ref=e240]: Systems Engineer
+    - generic [ref=e241]:
+      - img "Floral workshop background" [ref=e243]
+      - generic [ref=e244]:
+        - img [ref=e246]
+        - heading "Never a generic arrangement." [level=2] [ref=e249]
+        - paragraph [ref=e250]: Floria works exclusively with independent growers within a 50-mile radius, ensuring every stem possesses a wild, architectural intent that mass floristry strips away.
+    - generic [ref=e253]:
+      - img "Newsletter Background"
+      - heading "Join the Studio Archive." [level=2] [ref=e254]
+      - paragraph [ref=e255]: Receive bi-weekly essays on spatial design, exclusive access to limited botanical runs, and nothing else.
+      - generic [ref=e256]:
+        - textbox "Enter your email address..." [ref=e257]
+        - button "Subscribe" [ref=e258]:
+          - generic [ref=e259]:
+            - generic [ref=e260]: Subscribe
+            - img [ref=e261]
+    - generic [ref=e263]:
+      - generic:
+        - generic: FLORIA
+      - generic:
+        - img "Footer Flower"
+      - generic [ref=e264]:
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - heading "Floria." [level=2] [ref=e268]
+              - paragraph [ref=e269]: Architecture of Nature
+            - paragraph [ref=e270]: An independent floral styling studio for modern, sculptural living. Sourced locally, curated globally.
+          - generic [ref=e271]:
+            - heading "Archive" [level=4] [ref=e272]: Archive
+            - list [ref=e274]:
+              - listitem [ref=e275]:
+                - link "Spring Collection" [ref=e276] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e277]:
+                - link "The Wedding Edit" [ref=e278] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e279]:
+                - link "Corporate Spaces" [ref=e280] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e281]:
+            - heading "Studio" [level=4] [ref=e282]: Studio
+            - list [ref=e284]:
+              - listitem [ref=e285]:
+                - link "About Us" [ref=e286] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e287]:
+                - link "Sourcing Ethos" [ref=e288] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e289]:
+                - link "Careers" [ref=e290] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e291]:
+                - link "Press" [ref=e292] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e293]:
+            - heading "Contact" [level=4] [ref=e294]: Contact
+            - generic [ref=e296] [cursor=pointer]:
+              - link "studio@floria.com" [ref=e297]:
+                - /url: mailto:studio@floria.com
+              - paragraph [ref=e298]: +1 (310) 555-0824
+        - generic [ref=e299]:
+          - paragraph [ref=e300]: © 2026 Floria Studio. All rights reserved.
+          - generic [ref=e301]:
+            - link "Instagram" [ref=e302] [cursor=pointer]:
+              - /url: "#"
+            - link "Pinterest" [ref=e303] [cursor=pointer]:
+              - /url: "#"
+            - link "Arez.na" [ref=e304] [cursor=pointer]:
+              - /url: "#"
+  - alert [ref=e305]

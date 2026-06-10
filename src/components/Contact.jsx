@@ -1,6 +1,5 @@
 import React from 'react';
 import { MessageCircle, Share2 } from 'lucide-react';
-import profileProcess from '../assets/reference-pictures/perfil2.optimized.jpg';
 import AirbnbMark from './AirbnbMark.jsx';
 
 const SHARE_URL = 'https://rogerperva.github.io/bnbFolio/';
@@ -8,38 +7,28 @@ const SHARE_URL = 'https://rogerperva.github.io/bnbFolio/';
 function Contact({ owner, contact }) {
   return (
     <section className="contact" id="contacto">
-      <div className="contact-copy">
-        <div>
-          <p className="eyebrow">Contacto</p>
-          <h2>Hablemos de tu alojamiento y del siguiente paso</h2>
-          <p>
-            Si quieres lanzar, ordenar u optimizar tu anuncio, puedo ayudarte a revisar que conviene
-            ajustar primero.
-          </p>
-        </div>
+      <div className="contact-copy" data-reveal>
+        <h2>Hablemos de tu alojamiento y del siguiente paso.</h2>
+        <p>
+          Si quieres lanzar, ordenar u optimizar tu anuncio, puedo ayudarte a revisar qué conviene
+          ajustar primero.
+        </p>
         <div className="contact-actions">
-          <a
-            className="social-circle social-whatsapp move contact-whatsapp"
-            href={contact.whatsapp}
-            aria-label="WhatsApp"
-          >
-            <MessageCircle aria-hidden="true" className="social-icon" strokeWidth={2.2} />
-            <span className="sr-only">WhatsApp</span>
+          <a className="button primary" href={contact.whatsapp}>
+            <MessageCircle aria-hidden="true" />
+            {contact.primaryCta}
           </a>
-          <a className="social-circle social-airbnb move" href={contact.airbnb} aria-label="Airbnb">
+          <a className="social-circle social-airbnb" href={contact.airbnb} aria-label="Ver perfil de Airbnb">
             <AirbnbMark />
-            <span className="sr-only">Airbnb</span>
+            <span className="sr-only">Ver perfil de Airbnb</span>
           </a>
           <ShareButton />
         </div>
       </div>
-      <figure className="contact-photo">
-        <img src={profileProcess} alt={`${owner.name} trabajando en la gestion diaria`} />
-      </figure>
       <div className="footer-copy">
-        <p className="footer-kicker">Creacion de anuncios, fotografia y gestion Airbnb.</p>
+        <p className="footer-kicker">Creación de anuncios, fotografía y gestión Airbnb.</p>
         <p className="footer-note">
-          © {new Date().getFullYear()} {owner.name}. Disenado para anfitriones que empiezan o ya
+          © {new Date().getFullYear()} {owner.name}. Diseñado para anfitriones que empiezan o ya
           operan.
         </p>
       </div>
@@ -73,10 +62,10 @@ function ShareButton() {
 
   return (
     <button
-      className="social-circle social-share move"
+      className="social-circle social-share"
       type="button"
       onClick={handleShare}
-      aria-label={label === 'Compartir' ? 'Compartir pagina' : label}
+      aria-label={label === 'Compartir' ? 'Compartir página' : label}
       title={label}
     >
       <Share2 aria-hidden="true" className="social-icon" strokeWidth={2.2} />

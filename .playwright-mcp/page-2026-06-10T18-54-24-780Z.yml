@@ -1,0 +1,285 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic:
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+    - navigation "Navegacion principal" [ref=e5]:
+      - link "Inicio" [ref=e6] [cursor=pointer]:
+        - /url: "#top"
+        - text: RP
+      - generic [ref=e7]:
+        - link "Servicios" [ref=e8] [cursor=pointer]:
+          - /url: "#servicios"
+        - link "Alojamientos" [ref=e9] [cursor=pointer]:
+          - /url: "#alojamientos"
+        - link "Contacto" [ref=e10] [cursor=pointer]:
+          - /url: "#contacto"
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: Gestión Airbnb profesional
+        - heading "Gestión Airbnb para lanzar o mejorar tu alojamiento" [level=1] [ref=e14]
+        - paragraph [ref=e15]: Acompaño a anfitriones que quieren publicar, ordenar u optimizar su alojamiento para comunicar mejor su valor y atender con más claridad.
+        - generic [ref=e16]:
+          - link "Agendar diagnóstico gratuito" [ref=e17] [cursor=pointer]:
+            - /url: https://wa.me/52721113250?text=Hola%2C%20me%20gustaria%20saber%20mas%20sobre%20tus%20servicios%20como%20co-anfitri%C3%B3n%20de%20airbnb
+            - img [ref=e18]
+            - text: Agendar diagnóstico gratuito
+          - link "Alojamientos que confiaron" [ref=e20] [cursor=pointer]:
+            - /url: "#alojamientos"
+            - img [ref=e21]
+            - text: Alojamientos que confiaron
+      - complementary "Perfil profesional" [ref=e26]:
+        - img "Foto de Rogelio Pervaz" [ref=e28]
+        - generic [ref=e29]:
+          - paragraph [ref=e30]: Rogelio Pervaz
+          - paragraph [ref=e31]: Gestión Airbnb, fotografía y creación de anuncios
+          - paragraph [ref=e32]:
+            - img [ref=e33]
+            - text: México
+        - paragraph [ref=e36]: Ayudo a anfitriones a convertir su alojamiento en un anuncio claro, atractivo y mejor operado, con fotografía, estrategia y seguimiento directo.
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - img [ref=e39]
+            - text: Creación de anuncios y fotografía
+          - generic [ref=e42]:
+            - img [ref=e43]
+            - text: Experiencia operando alojamientos reales
+          - generic [ref=e47]:
+            - img [ref=e48]
+            - text: Enfoque en limpieza, orden, disponibilidad y respuesta
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - strong [ref=e52]: Lanzamiento
+        - generic [ref=e53]: de anuncios
+      - generic [ref=e54]:
+        - strong [ref=e55]: Imagen
+        - generic [ref=e56]: y presentacion
+      - generic [ref=e57]:
+        - strong [ref=e58]: Soporte
+        - generic [ref=e59]: directo
+  - region "Huespedes que disfrutaron su estancia" [ref=e60]:
+    - generic [ref=e61]:
+      - paragraph [ref=e62]: Resenas
+      - heading "Huespedes que disfrutaron su estancia" [level=2] [ref=e63]
+      - paragraph [ref=e64]: Comentarios que reflejan atencion rapida, limpieza y una experiencia comoda.
+    - generic "Resenas de huespedes" [ref=e65]:
+      - generic [ref=e66]:
+        - article [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - heading "David Alberto" [level=3] [ref=e71]
+                - paragraph [ref=e72]: Cancún, México
+              - generic "5 estrellas" [ref=e73]:
+                - img [ref=e74]
+                - img [ref=e76]
+                - img [ref=e78]
+                - img [ref=e80]
+                - img [ref=e82]
+            - paragraph [ref=e84]: Estancia con niños
+            - paragraph [ref=e85]: "La atención fue clara y oportuna. El hospedaje cumplió con lo prometido: cómodo, limpio y adecuado."
+        - article [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - heading "Fernando" [level=3] [ref=e90]
+                - paragraph [ref=e91]: Mesquite, Texas
+              - generic "5 estrellas" [ref=e92]:
+                - img [ref=e93]
+                - img [ref=e95]
+                - img [ref=e97]
+                - img [ref=e99]
+                - img [ref=e101]
+            - paragraph [ref=e103]: Estancia de varias noches
+            - paragraph [ref=e104]: Rogelio respondió rápido a cualquier duda. El apartamento fue cómodo y definitivamente volvería.
+        - article [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - heading "Jennifer" [level=3] [ref=e109]
+                - paragraph [ref=e110]: Juchitán de Zaragoza, México
+              - generic "5 estrellas" [ref=e111]:
+                - img [ref=e112]
+                - img [ref=e114]
+                - img [ref=e116]
+                - img [ref=e118]
+                - img [ref=e120]
+            - paragraph [ref=e122]: Estancia de varias noches
+            - paragraph [ref=e123]: El alojamiento estaba limpio, organizado y como aparece en las fotos. Una experiencia tranquila, cómoda y segura.
+        - article [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - heading "David Alberto" [level=3] [ref=e128]
+                - paragraph [ref=e129]: Cancún, México
+              - generic "5 estrellas" [ref=e130]:
+                - img [ref=e131]
+                - img [ref=e133]
+                - img [ref=e135]
+                - img [ref=e137]
+                - img [ref=e139]
+            - paragraph [ref=e141]: Estancia con niños
+            - paragraph [ref=e142]: "La atención fue clara y oportuna. El hospedaje cumplió con lo prometido: cómodo, limpio y adecuado."
+        - article [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - heading "Fernando" [level=3] [ref=e147]
+                - paragraph [ref=e148]: Mesquite, Texas
+              - generic "5 estrellas" [ref=e149]:
+                - img [ref=e150]
+                - img [ref=e152]
+                - img [ref=e154]
+                - img [ref=e156]
+                - img [ref=e158]
+            - paragraph [ref=e160]: Estancia de varias noches
+            - paragraph [ref=e161]: Rogelio respondió rápido a cualquier duda. El apartamento fue cómodo y definitivamente volvería.
+        - article [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - heading "Jennifer" [level=3] [ref=e166]
+                - paragraph [ref=e167]: Juchitán de Zaragoza, México
+              - generic "5 estrellas" [ref=e168]:
+                - img [ref=e169]
+                - img [ref=e171]
+                - img [ref=e173]
+                - img [ref=e175]
+                - img [ref=e177]
+            - paragraph [ref=e179]: Estancia de varias noches
+            - paragraph [ref=e180]: El alojamiento estaba limpio, organizado y como aparece en las fotos. Una experiencia tranquila, cómoda y segura.
+  - generic [ref=e181]:
+    - paragraph [ref=e182]: Servicios
+    - heading "Servicios para lanzar o mejorar tu alojamiento" [level=2] [ref=e183]
+    - paragraph [ref=e184]: Ajustes practicos para que tu anuncio se vea mejor, responda dudas clave y ayude a que cada reserva sea mas ordenada.
+  - region "Servicios" [ref=e185]:
+    - article [ref=e186]:
+      - generic [ref=e188]:
+        - img [ref=e189]
+        - heading "Creación del anuncio" [level=3] [ref=e192]
+        - paragraph [ref=e193]: Estructuro tu anuncio con textos, fotos y detalles clave para que el huésped entienda rápido por qué reservar.
+    - article [ref=e194]:
+      - generic [ref=e196]:
+        - img [ref=e197]
+        - heading "Operación diaria" [level=3] [ref=e200]
+        - paragraph [ref=e201]: Ordeno mensajes, reservas, check-in, check-out e incidencias para que la operación sea más simple y confiable.
+    - article [ref=e202]:
+      - generic [ref=e204]:
+        - img [ref=e205]
+        - heading "Optimización visual" [level=3] [ref=e208]
+        - paragraph [ref=e209]: Mejoro fotos, descripción, reglas y amenidades para aumentar confianza y presentar mejor el espacio.
+    - article [ref=e210]:
+      - generic [ref=e212]:
+        - img [ref=e213]
+        - heading "Atención al huésped" [level=3] [ref=e216]
+        - paragraph [ref=e217]: Creo una comunicación clara y práctica para reducir dudas antes, durante y después de cada estancia.
+    - article [ref=e218]:
+      - generic [ref=e220]:
+        - img [ref=e221]
+        - heading "Mejora continua" [level=3] [ref=e224]
+        - paragraph [ref=e225]: Reviso comentarios, desempeño y oportunidades para ajustar el anuncio y sostener una mejor experiencia.
+  - generic [ref=e226]:
+    - generic [ref=e227]:
+      - generic [ref=e228]:
+        - paragraph [ref=e229]: Casos
+        - heading "Alojamientos que confiaron en mi" [level=2] [ref=e230]
+      - paragraph [ref=e231]: Alojamientos listados abajo muestran su perfil, mejoras y el enlace al anuncio.
+    - generic [ref=e232]:
+      - button "Alojamiento anterior" [ref=e233] [cursor=pointer]:
+        - img [ref=e234]
+        - generic [ref=e236]: Alojamiento anterior
+      - article [ref=e237]:
+        - button "Foto de Casa de los Aguacates" [ref=e238] [cursor=pointer]:
+          - img "Foto de Casa de los Aguacates" [ref=e239]
+        - generic [ref=e240]:
+          - heading "Casa de los Aguacates" [level=3] [ref=e241]
+          - paragraph [ref=e242]: Refugio acogedor con jardín tranquilo y un árbol de aguacate como protagonista. Pensado para familias y grupos que buscan comodidad y un ambiente con encanto local.
+          - generic [ref=e243]:
+            - generic [ref=e244]: Casa
+            - generic [ref=e245]: Fotografía
+            - generic [ref=e246]: Presentación
+          - button "Ver alojamiento" [ref=e247] [cursor=pointer]:
+            - img [ref=e248]
+            - text: Ver alojamiento
+      - button "Siguiente alojamiento" [ref=e253] [cursor=pointer]:
+        - img [ref=e254]
+        - generic [ref=e256]: Siguiente alojamiento
+    - generic "Seleccionar alojamiento" [ref=e257]:
+      - button "Casa de los Aguacates" [ref=e258] [cursor=pointer]:
+        - img [ref=e259]
+        - generic [ref=e262]: Casa de los Aguacates
+      - button "D'Calli" [ref=e263] [cursor=pointer]:
+        - img [ref=e264]
+        - generic [ref=e267]: D'Calli
+      - button "Casa de Ensueño" [ref=e268] [cursor=pointer]:
+        - img [ref=e269]
+        - generic [ref=e272]: Casa de Ensueño
+      - button "Habitación Ensueño" [ref=e273] [cursor=pointer]:
+        - img [ref=e274]
+        - generic [ref=e277]: Habitación Ensueño
+      - button "Mirador Santa Fe" [ref=e278] [cursor=pointer]:
+        - img [ref=e279]
+        - generic [ref=e282]: Mirador Santa Fe
+      - button "Quinta Lupita" [ref=e283] [cursor=pointer]:
+        - img [ref=e284]
+        - generic [ref=e287]: Quinta Lupita
+      - button "Quinta Lupita Slim" [ref=e288] [cursor=pointer]:
+        - img [ref=e289]
+        - generic [ref=e292]: Quinta Lupita Slim
+      - button "Casa Santa Fe" [ref=e293] [cursor=pointer]:
+        - img [ref=e294]
+        - generic [ref=e297]: Casa Santa Fe
+  - generic [ref=e298]:
+    - generic [ref=e299]:
+      - paragraph [ref=e300]: Confianza
+      - heading "Un proceso claro para lanzar o mejorar tu alojamiento" [level=2] [ref=e301]
+      - paragraph [ref=e302]: Trabajo con pasos simples para definir que se crea, que se ajusta y como se mantiene la operacion bajo control.
+    - generic "Proceso de trabajo" [ref=e303]:
+      - generic [ref=e304]:
+        - generic [ref=e305]: "1"
+        - paragraph [ref=e306]: Reviso tu propiedad, tus objetivos y el estado actual del anuncio.
+      - generic [ref=e307]:
+        - generic [ref=e308]: "2"
+        - paragraph [ref=e309]: Definimos que conviene crear, ajustar o delegar primero.
+      - generic [ref=e310]:
+        - generic [ref=e311]: "3"
+        - paragraph [ref=e312]: Ordeno fotos, textos, comunicacion e instrucciones operativas.
+      - generic [ref=e313]:
+        - generic [ref=e314]: "4"
+        - paragraph [ref=e315]: Revisamos comentarios y mejoras para mantener una experiencia clara.
+    - generic [ref=e316]:
+      - img [ref=e317]
+      - generic [ref=e321]: Rogelio Pervaz
+  - generic [ref=e322]:
+    - generic [ref=e323]:
+      - generic [ref=e324]:
+        - paragraph [ref=e325]: Contacto
+        - heading "Hablemos de tu alojamiento y del siguiente paso" [level=2] [ref=e326]
+        - paragraph [ref=e327]: Si quieres lanzar, ordenar u optimizar tu anuncio, puedo ayudarte a revisar que conviene ajustar primero.
+      - generic [ref=e328]:
+        - link "WhatsApp" [ref=e329] [cursor=pointer]:
+          - /url: https://wa.me/52721113250?text=Hola%2C%20me%20gustaria%20saber%20mas%20sobre%20tus%20servicios%20como%20co-anfitri%C3%B3n%20de%20airbnb
+          - img [ref=e330]
+          - generic [ref=e332]: WhatsApp
+        - link "Airbnb" [ref=e333] [cursor=pointer]:
+          - /url: https://www.airbnb.mx/users/show/261479584
+          - img [ref=e334]
+          - generic [ref=e336]: Airbnb
+        - button "Compartir pagina" [ref=e337] [cursor=pointer]:
+          - img [ref=e338]
+          - generic [ref=e344]: Compartir
+    - figure [ref=e345]:
+      - img "Rogelio Pervaz trabajando en la gestion diaria" [ref=e346]
+    - generic [ref=e347]:
+      - paragraph [ref=e348]: Creacion de anuncios, fotografia y gestion Airbnb.
+      - paragraph [ref=e349]: © 2026 Rogelio Pervaz. Disenado para anfitriones que empiezan o ya operan.
+  - link "Ver perfil de Airbnb" [ref=e350] [cursor=pointer]:
+    - /url: https://www.airbnb.mx/users/show/261479584
+    - img [ref=e351]
+    - generic [ref=e353]: Ver perfil de Airbnb

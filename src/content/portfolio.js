@@ -35,7 +35,7 @@ export const portfolio = {
   },
   stats: [
     { value: 'Lanzamiento', label: 'de anuncios' },
-    { value: 'Imagen', label: 'y presentacion' },
+    { value: 'Imagen', label: 'y presentación' },
     { value: 'Soporte', label: 'directo' }
   ],
   services: [
@@ -230,8 +230,8 @@ export const portfolio = {
   ],
   process: [
     'Reviso tu propiedad, tus objetivos y el estado actual del anuncio.',
-    'Definimos que conviene crear, ajustar o delegar primero.',
-    'Ordeno fotos, textos, comunicacion e instrucciones operativas.',
+    'Definimos qué conviene crear, ajustar o delegar primero.',
+    'Ordeno fotos, textos, comunicación e instrucciones operativas.',
     'Revisamos comentarios y mejoras para mantener una experiencia clara.'
   ]
 };

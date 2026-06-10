@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  ChevronLeft,
-  ChevronRight,
-  CircleDot,
-  ExternalLink,
-  LayoutGrid,
-  X
-} from 'lucide-react';
+import { ChevronLeft, ChevronRight, ExternalLink, LayoutGrid, X } from 'lucide-react';
 
 function Properties({ properties }) {
   const [activeIndex, setActiveIndex] = React.useState(0);
@@ -40,15 +33,12 @@ function Properties({ properties }) {
 
   return (
     <section className="properties" id="alojamientos">
-      <div className="section-heading">
-        <div>
-          <p className="eyebrow">Casos</p>
-          <h2>Alojamientos que confiaron en mi</h2>
-        </div>
+      <div className="section-heading" data-reveal>
+        <h2>Alojamientos que confiaron en mí.</h2>
         <p>Alojamientos listados abajo muestran su perfil, mejoras y el enlace al anuncio.</p>
       </div>
 
-      <div className="portfolio-carousel">
+      <div className="portfolio-carousel" data-reveal style={{ '--reveal-i': 1 }}>
         <button className="icon-button carousel-arrow left" type="button" onClick={showPrevious}>
           <ChevronLeft aria-hidden="true" />
           <span className="sr-only">Alojamiento anterior</span>
@@ -72,7 +62,7 @@ function Properties({ properties }) {
               ))}
             </div>
             <button
-              className="button dark move"
+              className="button dark"
               type="button"
               onClick={(event) => openProperty(activeProperty, event)}
             >
@@ -96,8 +86,7 @@ function Properties({ properties }) {
             type="button"
             onClick={() => setActiveIndex(index)}
           >
-            <CircleDot aria-hidden="true" />
-            <span>{property.name}</span>
+            {property.name}
           </button>
         ))}
       </div>

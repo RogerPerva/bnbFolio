@@ -8,42 +8,23 @@ import {
   UserCheck
 } from 'lucide-react';
 import profileHero from '../assets/reference-pictures/perfil1.optimized.jpg';
-import AirbnbMark from './AirbnbMark.jsx';
 
 const iconMap = [ShieldCheck, UserCheck, Sparkles];
-const heroAirbnbFloaters = [
-  { top: '10%', left: '8%', size: 78, duration: '18s', rotation: '-10deg', opacity: 0.8 },
-  { top: '18%', left: '48%', size: 84, duration: '22s', rotation: '8deg', opacity: 0.8 },
-  { top: '52%', left: '14%', size: 74, duration: '19s', rotation: '-4deg', opacity: 0.8 },
-  { bottom: '16%', right: '24%', size: 80, duration: '21s', rotation: '14deg', opacity: 0.8 }
-];
+
+function EmphasizedTitle({ text }) {
+  const words = text.trim().split(' ');
+  const lastWord = words.pop();
+  return (
+    <>
+      {words.join(' ')} <em>{lastWord}.</em>
+    </>
+  );
+}
 
 function Hero({ owner, contact, hero, stats }) {
   return (
     <section className="hero">
-      <div className="hero-floaters" aria-hidden="true">
-        {heroAirbnbFloaters.map((floater, index) => (
-          <span
-            className="hero-floater"
-            key={`${index}-${floater.top || floater.bottom}`}
-            style={{
-              top: floater.top,
-              right: floater.right,
-              bottom: floater.bottom,
-              left: floater.left,
-              width: `${floater.size}px`,
-              height: `${floater.size}px`,
-              opacity: floater.opacity,
-              '--float-duration': floater.duration,
-              '--float-rotation': floater.rotation
-            }}
-          >
-            <AirbnbMark />
-          </span>
-        ))}
-      </div>
-
-      <nav className="nav" aria-label="Navegacion principal">
+      <nav className="nav" aria-label="Navegación principal">
         <a className="brand" href="#top" aria-label="Inicio">
           RP
         </a>
@@ -57,14 +38,16 @@ function Hero({ owner, contact, hero, stats }) {
       <div className="hero-grid" id="top">
         <div className="hero-copy">
           <p className="eyebrow">{hero.eyebrow}</p>
-          <h1>{hero.title}</h1>
+          <h1>
+            <EmphasizedTitle text={hero.title} />
+          </h1>
           <p className="hero-description">{hero.description}</p>
           <div className="hero-actions">
-            <a className="button primary move" href={contact.whatsapp}>
+            <a className="button primary" href={contact.whatsapp}>
               <MessageCircle aria-hidden="true" />
               {contact.primaryCta}
             </a>
-            <a className="button secondary hero-alojamientos move" href="#alojamientos">
+            <a className="button secondary" href="#alojamientos">
               <Building2 aria-hidden="true" />
               Alojamientos que confiaron
             </a>

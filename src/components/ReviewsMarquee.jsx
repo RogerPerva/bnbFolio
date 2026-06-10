@@ -5,21 +5,25 @@ function ReviewsMarquee({ reviews }) {
 
   return (
     <section className="reviews-strip" aria-labelledby="reviews-title">
-      <div className="reviews-heading">
-        <p className="eyebrow">Resenas</p>
-        <h2 id="reviews-title">Huespedes que disfrutaron su estancia</h2>
-        <p>Comentarios que reflejan atencion rapida, limpieza y una experiencia comoda.</p>
+      <div className="reviews-heading" data-reveal>
+        <h2 id="reviews-title">Huéspedes que disfrutaron su estancia.</h2>
+        <p>Comentarios que reflejan atención rápida, limpieza y una experiencia cómoda.</p>
       </div>
 
-      <div className="reviews-marquee" aria-label="Resenas de huespedes">
+      <div className="reviews-marquee" aria-label="Reseñas de huéspedes">
         <div className="reviews-track">
           {marqueeItems.map((review, index) => (
             <article className="review-card" key={`${review.name}-${index}`}>
               <div className="review-content">
                 <div className="review-meta">
-                  <div>
-                    <h3>{review.name}</h3>
-                    <p>{review.location}</p>
+                  <div className="review-identity">
+                    <span className="review-avatar" aria-hidden="true">
+                      {review.name.charAt(0)}
+                    </span>
+                    <div>
+                      <h3>{review.name}</h3>
+                      <p>{review.location}</p>
+                    </div>
                   </div>
                   <div className="review-stars" aria-label="5 estrellas">
                     {Array.from({ length: 5 }).map((_, starIndex) => (
