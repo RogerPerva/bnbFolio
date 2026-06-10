@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronLeft, ChevronRight, ExternalLink, LayoutGrid, X } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ExternalLink, LayoutGrid, TrendingUp, X } from 'lucide-react';
 
 function Properties({ properties }) {
   const [activeIndex, setActiveIndex] = React.useState(0);
@@ -60,6 +60,10 @@ function Properties({ properties }) {
 
           <div className="featured-copy">
             <h3>{activeProperty.name}</h3>
+            <p className="featured-result">
+              <TrendingUp aria-hidden="true" />
+              {activeProperty.result}
+            </p>
             <p>{activeProperty.description}</p>
             <div className="highlight-row">
               {activeProperty.highlights.map((highlight) => (

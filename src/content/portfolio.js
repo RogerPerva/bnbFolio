@@ -88,25 +88,8 @@ export const portfolio = {
         'El alojamiento estaba limpio, organizado y como aparece en las fotos. Una experiencia tranquila, cómoda y segura.'
     }
   ],
+  // Casos ordenados por fuerza del resultado (de mayor a menor).
   properties: [
-    {
-      name: 'Casa de los Aguacates',
-      location: '',
-      image: casaAguacatesCover,
-      gallery: [casaAguacatesCover],
-      description:
-        'Refugio acogedor con jardín tranquilo y un árbol de aguacate como protagonista. Pensado para familias y grupos que buscan comodidad y un ambiente con encanto local.',
-      highlights: ['Casa', 'Fotografía', 'Presentación'],
-      workDone: [
-        'Creación estratégica del anuncio.',
-        'Sesión fotográfica con edición optimizada.',
-        'Lluvia de ideas con los anfitriones para maximizar ingresos.',
-        'Entrega de reportes e incidentes de forma clara y confiable.',
-        'Gestión completa de la plataforma Airbnb.'
-      ],
-      result: 'Un anuncio más sólido, claro y orientado a reservas.',
-      link: null
-    },
     {
       name: 'D\'Calli',
       location: '',
@@ -126,57 +109,6 @@ export const portfolio = {
       link: null
     },
     {
-      name: 'Casa de Ensueño',
-      location: '',
-      image: casaEnsuenoCover,
-      gallery: [casaEnsuenoCover],
-      description:
-        'Anuncio creado previamente que se analizó para detectar oportunidades en contenido, zona y precio, alineando el apoyo con el anfitrión dentro de la plataforma.',
-      highlights: ['Casa', 'Imagen', 'Anuncio'],
-      workDone: [
-        'Orientación al anfitrión respecto a la atención al huésped.',
-        'Fotografías de calidad y edición realista.',
-        'Conexión con servicio de limpieza profesional.',
-        'Optimización de servicios y detalles para mejorar la experiencia.'
-      ],
-      result: 'Una presencia más ordenada y con mejor lectura comercial.',
-      link: null
-    },
-    {
-      name: 'Habitación Ensueño',
-      location: '',
-      image: habEnsuenoCover,
-      gallery: [habEnsuenoCover],
-      description:
-        'Optimización del anuncio para aumentar reservas, visibilidad y recomendaciones dentro y fuera de la plataforma.',
-      highlights: ['Habitación', 'Estancia corta', 'Fotografía'],
-      workDone: [
-        'Ajustes de contenido para mejorar la lectura del anuncio.',
-        'Mejoras enfocadas en visibilidad y conversión.',
-        'Recomendaciones dentro y fuera de Airbnb.'
-      ],
-      result: 'Más visualizaciones y mejor desempeño del anuncio.',
-      link:
-        'https://www.airbnb.mx/rooms/937165179702381228?guests=1&adults=1&s=67&unique_share_id=bd22e353-a2da-49df-9743-58e288348405&source_impression_id=p3_1780438984_P3Wm-i5I0ODHyFrx'
-    },
-    {
-      name: 'Mirador Santa Fe',
-      location: '',
-      image: miradorSantaFeCover,
-      gallery: [miradorSantaFeCover],
-      description:
-        '¡Descubre Casa Santa Fe, tu oasis familiar en Orizaba! A solo 10 minutos del centro histórico, combina estilo y comodidad para vacaciones.',
-      highlights: ['Vista', 'Detalle', 'Anuncio'],
-      workDone: [
-        'Creación estratégica del anuncio.',
-        'Sesión fotográfica con edición optimizada.',
-        'Entrega de reportes e incidentes de forma clara y confiable.',
-        'Gestión completa de la plataforma Airbnb.'
-      ],
-      result: 'Una ficha más profesional y útil para atraer reservas.',
-      link: null
-    },
-    {
       name: 'Quinta Lupita',
       location: '',
       image: quintaLupitaGrande,
@@ -192,6 +124,41 @@ export const portfolio = {
       ],
       result: 'Mayor conversión en reservas y mejor ocupación mensual.',
       link: 'https://www.airbnb.mx/h/quinta-lupita-2'
+    },
+    {
+      name: 'Habitación Ensueño',
+      location: '',
+      image: habEnsuenoCover,
+      gallery: [habEnsuenoCover],
+      description:
+        'Optimización del anuncio para aumentar reservas, visibilidad y recomendaciones dentro y fuera de la plataforma.',
+      highlights: ['Habitación', 'Estancia corta', 'Fotografía'],
+      workDone: [
+        'Ajustes de contenido para mejorar la lectura del anuncio.',
+        'Mejoras enfocadas en visibilidad y conversión.',
+        'Recomendaciones dentro y fuera de Airbnb.'
+      ],
+      result: 'Más visualizaciones del anuncio.',
+      link:
+        'https://www.airbnb.mx/rooms/937165179702381228?guests=1&adults=1&s=67&unique_share_id=bd22e353-a2da-49df-9743-58e288348405&source_impression_id=p3_1780438984_P3Wm-i5I0ODHyFrx'
+    },
+    {
+      name: 'Casa de los Aguacates',
+      location: '',
+      image: casaAguacatesCover,
+      gallery: [casaAguacatesCover],
+      description:
+        'Refugio acogedor con jardín tranquilo y un árbol de aguacate como protagonista. Pensado para familias y grupos que buscan comodidad y un ambiente con encanto local.',
+      highlights: ['Casa', 'Fotografía', 'Presentación'],
+      workDone: [
+        'Creación estratégica del anuncio.',
+        'Sesión fotográfica con edición optimizada.',
+        'Lluvia de ideas con los anfitriones para maximizar ingresos.',
+        'Entrega de reportes e incidentes de forma clara y confiable.',
+        'Gestión completa de la plataforma Airbnb.'
+      ],
+      result: 'Un anuncio más sólido, claro y orientado a reservas.',
+      link: null
     },
     {
       name: 'Quinta Lupita Slim',
@@ -226,6 +193,40 @@ export const portfolio = {
       ],
       result: 'Una ficha más profesional y útil para atraer reservas.',
       link: 'https://www.airbnb.mx/h/casa-santa-fe'
+    },
+    {
+      name: 'Mirador Santa Fe',
+      location: '',
+      image: miradorSantaFeCover,
+      gallery: [miradorSantaFeCover],
+      description:
+        '¡Descubre Casa Santa Fe, tu oasis familiar en Orizaba! A solo 10 minutos del centro histórico, combina estilo y comodidad para vacaciones.',
+      highlights: ['Vista', 'Detalle', 'Anuncio'],
+      workDone: [
+        'Creación estratégica del anuncio.',
+        'Sesión fotográfica con edición optimizada.',
+        'Entrega de reportes e incidentes de forma clara y confiable.',
+        'Gestión completa de la plataforma Airbnb.'
+      ],
+      result: 'Una ficha más profesional y útil para atraer reservas.',
+      link: null
+    },
+    {
+      name: 'Casa de Ensueño',
+      location: '',
+      image: casaEnsuenoCover,
+      gallery: [casaEnsuenoCover],
+      description:
+        'Anuncio creado previamente que se analizó para detectar oportunidades en contenido, zona y precio, alineando el apoyo con el anfitrión dentro de la plataforma.',
+      highlights: ['Casa', 'Imagen', 'Anuncio'],
+      workDone: [
+        'Orientación al anfitrión respecto a la atención al huésped.',
+        'Fotografías de calidad y edición realista.',
+        'Conexión con servicio de limpieza profesional.',
+        'Optimización de servicios y detalles para mejorar la experiencia.'
+      ],
+      result: 'Una presencia más ordenada y con mejor lectura comercial.',
+      link: null
     }
   ],
   process: [

@@ -1,10 +1,46 @@
 # Next Steps — Rediseño bnbFolio
 
 > Objetivo: convertir el sitio en un portafolio que **llame la atención, venda y se sienta profesional pero cálido** — la misma sensación de hospitalidad que transmite Airbnb: confianza, calidez humana y atención al detalle.
+>
+> **Meta de conversión (definida por el dueño):** hoy ~50% de quienes contactan no contratan; bajar ese porcentaje al menos un 25% y atraer más clientes.
+
+---
+
+## Pendientes para la siguiente sesión
+
+### 1. Sección FAQ (aprobada, falta contenido del dueño)
+- **Por qué**: responde objeciones en el momento de decisión; cada pregunta sin respuesta es un visitante que cierra la pestaña. Suma SEO.
+- **Ubicación**: entre Proceso (Confianza) y Contacto.
+- **Diseño**: lista limpia con numeración en Geist Mono (coherente con los pasos 01-04 del proceso), no acordeón genérico. Tema oscuro, una columna o dos columnas en desktop.
+- **Preguntas sugeridas** (las respuestas las redacta Rogelio, NO inventar):
+  1. ¿Cuánto cobras y cómo funciona el pago?
+  2. ¿Pierdo el control de mi cuenta de Airbnb?
+  3. ¿Qué pasa si hay un incidente con un huésped?
+  4. ¿Necesito firmar un contrato?
+  5. ¿En qué zonas trabajas?
+  6. ¿Qué necesito para empezar si nunca he publicado?
+  7. ¿Qué incluye el diagnóstico gratuito?
+
+### 2. Equipo / red de apoyo (decisión tomada: NO sección de equipo por ahora)
+- **No crear** sección "Mi equipo / Gerentes de cuenta" salvo que sean personas reales, con nombre, rostro y rol estable — inflarla contradice la regla de no mentir y los "team sections" genéricos restan credibilidad.
+- La marca personal ("Rogelio responde rápido") es una ventaja; no diluirla.
+- **Alternativa aprobada conceptualmente**: una línea de "red de apoyo" en Proceso o Servicios (p. ej. limpieza profesional verificada + fotografía propia — la conexión con limpieza ya consta en el caso Casa de Ensueño).
+
+### 3. Testimonios de anfitriones (alto impacto, depende del dueño)
+- Pedir 2-3 frases reales a los dueños de Quinta Lupita / Casa de los Aguacates / D'Calli por WhatsApp.
+- Colocarlos cerca del contacto (los compradores son dueños, no huéspedes).
+
+### 4. Otros pendientes
+- **Antes/después** (slider con fotografía propia): pospuesto por decisión del dueño, retomar más adelante.
+- **Fotos reales de propiedades** (las trae el dueño; el script `scripts/optimize-images.mjs` ya las procesa).
+- **Disclaimer Airbnb** en footer (lo hace el dueño).
+- **Analítica de clics al CTA de WhatsApp**: falta decidir proveedor (GA4 gratis con cuenta del dueño, o Plausible de pago) — necesaria para medir la meta de conversión.
 
 Diagnóstico realizado el 2026-06-10 con Playwright (escritorio 1440px y móvil 390px) sobre `http://localhost:5173`.
 
 > **Estado (2026-06-10):** Bloques A–E ejecutados. Capturas finales en `final-desktop.jpeg` y `final-mobile.jpeg`. Pendiente: revisión del dueño y commit.
+>
+> **Iteración 4 (2026-06-10, conversión):** casos reordenados de mejor a peor resultado (D'Calli primero con su métrica de ocupación >75%); el resultado de cada caso ahora es visible en la tarjeta del carrusel (línea en terracota con ícono, sin abrir el modal); fricción del CTA reducida con 3 mini-pasos discretos en Contacto (qué pasa al escribir: WhatsApp → revisión → sin costo ni compromiso), redactados solo con hechos ya presentes en el contenido.
 >
 > **Iteración 3 (2026-06-10, performance y pulido):** imágenes convertidas a WebP (~20 MB ahorrados, script en `scripts/optimize-images.mjs`), fuentes Geist autohospedadas (woff2 latin), favicon oscuro nuevo, og:image 1200x630 + metadatos corregidos con acentos, 404.html personalizado, botón de pausa en el marquee de reseñas, énfasis tipográfico en titulares (contacto: *alojamiento* + "siguiente paso" en acento) y micro-hovers (nav, reseñas, números de proceso, ícono del CTA). Pendiente del dueño: fotos reales de propiedades (paso 2) y disclaimer de Airbnb (paso 6); analítica de clics requiere decidir proveedor.
 >
