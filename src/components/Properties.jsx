@@ -50,7 +50,12 @@ function Properties({ properties }) {
             type="button"
             onClick={(event) => openProperty(activeProperty, event)}
           >
-            <img src={activeProperty.image} alt={`Foto de ${activeProperty.name}`} />
+            <img
+              src={activeProperty.image}
+              alt={`Foto de ${activeProperty.name}`}
+              loading="lazy"
+              decoding="async"
+            />
           </button>
 
           <div className="featured-copy">

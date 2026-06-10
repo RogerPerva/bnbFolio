@@ -1,6 +1,8 @@
-import { Star } from 'lucide-react';
+import React from 'react';
+import { Pause, Play, Star } from 'lucide-react';
 
 function ReviewsMarquee({ reviews }) {
+  const [paused, setPaused] = React.useState(false);
   const marqueeItems = [...reviews, ...reviews];
 
   return (
@@ -10,7 +12,10 @@ function ReviewsMarquee({ reviews }) {
         <p>Comentarios que reflejan atención rápida, limpieza y una experiencia cómoda.</p>
       </div>
 
-      <div className="reviews-marquee" aria-label="Reseñas de huéspedes">
+      <div
+        className={`reviews-marquee${paused ? ' is-paused' : ''}`}
+        aria-label="Reseñas de huéspedes"
+      >
         <div className="reviews-track">
           {marqueeItems.map((review, index) => (
             <article className="review-card" key={`${review.name}-${index}`}>
@@ -38,6 +43,17 @@ function ReviewsMarquee({ reviews }) {
           ))}
         </div>
       </div>
+
+      <button
+        className="marquee-toggle"
+        type="button"
+        onClick={() => setPaused((value) => !value)}
+        aria-pressed={paused}
+        title={paused ? 'Reanudar reseñas' : 'Pausar reseñas'}
+      >
+        {paused ? <Play aria-hidden="true" /> : <Pause aria-hidden="true" />}
+        <span className="sr-only">{paused ? 'Reanudar reseñas' : 'Pausar reseñas'}</span>
+      </button>
     </section>
   );
 }

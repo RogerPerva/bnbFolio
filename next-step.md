@@ -6,6 +6,8 @@ Diagnóstico realizado el 2026-06-10 con Playwright (escritorio 1440px y móvil 
 
 > **Estado (2026-06-10):** Bloques A–E ejecutados. Capturas finales en `final-desktop.jpeg` y `final-mobile.jpeg`. Pendiente: revisión del dueño y commit.
 >
+> **Iteración 3 (2026-06-10, performance y pulido):** imágenes convertidas a WebP (~20 MB ahorrados, script en `scripts/optimize-images.mjs`), fuentes Geist autohospedadas (woff2 latin), favicon oscuro nuevo, og:image 1200x630 + metadatos corregidos con acentos, 404.html personalizado, botón de pausa en el marquee de reseñas, énfasis tipográfico en titulares (contacto: *alojamiento* + "siguiente paso" en acento) y micro-hovers (nav, reseñas, números de proceso, ícono del CTA). Pendiente del dueño: fotos reales de propiedades (paso 2) y disclaimer de Airbnb (paso 6); analítica de clics requiere decidir proveedor.
+>
 > **Iteración 2 (2026-06-10, tras feedback del dueño):** la dirección "hospitalidad editorial" clara se descartó por sentirse simple. Nueva dirección con `taste-skill`: **tema oscuro único premium** (slate casi negro + acento terracota, sin verde), tipografía Geist + Geist Mono, sección Confianza al estilo Floria (foto sangrando a negro + pasos escalonados 01-04), reveals al scroll con IntersectionObserver, grano sutil, eyebrows reducidos a 2, titulares con punto final e itálica de énfasis. Referencias: tasteskill.dev, floria-landing-page.vercel.app.
 
 ---

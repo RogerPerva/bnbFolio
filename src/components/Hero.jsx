@@ -7,7 +7,7 @@ import {
   Sparkles,
   UserCheck
 } from 'lucide-react';
-import profileHero from '../assets/reference-pictures/perfil1.optimized.jpg';
+import profileHero from '../assets/reference-pictures/perfil1.optimized.webp';
 
 const iconMap = [ShieldCheck, UserCheck, Sparkles];
 
@@ -57,7 +57,12 @@ function Hero({ owner, contact, hero, stats }) {
         <div className="hero-visual">
           <aside className="profile-panel" aria-label="Perfil profesional">
             <div className="profile-photo">
-              <img src={owner.profileImage || profileHero} alt={`Foto de ${owner.name}`} />
+              <img
+                src={owner.profileImage || profileHero}
+                alt={`Foto de ${owner.name}`}
+                fetchPriority="high"
+                decoding="async"
+              />
             </div>
             <div>
               <p className="profile-name">{owner.name}</p>

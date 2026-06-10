@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RP">
-  <rect width="64" height="64" rx="16" fill="#ae3135"/>
-  <rect x="4" y="4" width="56" height="56" rx="14" fill="none" stroke="#fff8ef" stroke-width="2.5"/>
+  <rect width="64" height="64" rx="16" fill="#13161b"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#3a4049" stroke-width="2"/>
   <text
     x="32"
-    y="39"
+    y="40"
     text-anchor="middle"
-    font-family="Inter, Arial, sans-serif"
-    font-size="24"
-    font-weight="800"
-    fill="#fff8ef"
+    font-family="Geist, Arial, sans-serif"
+    font-size="25"
+    font-weight="700"
+    fill="#e08257"
     letter-spacing="0"
   >
     RP

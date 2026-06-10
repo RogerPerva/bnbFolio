@@ -8,7 +8,10 @@ function Contact({ owner, contact }) {
   return (
     <section className="contact" id="contacto">
       <div className="contact-copy" data-reveal>
-        <h2>Hablemos de tu alojamiento y del siguiente paso.</h2>
+        <h2>
+          Hablemos de tu <em>alojamiento</em> y del{' '}
+          <span className="next-step">siguiente paso</span>.
+        </h2>
         <p>
           Si quieres lanzar, ordenar u optimizar tu anuncio, puedo ayudarte a revisar qué conviene
           ajustar primero.

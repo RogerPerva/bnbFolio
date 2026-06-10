@@ -1,5 +1,5 @@
 import { UserCheck } from 'lucide-react';
-import profileProcess from '../assets/reference-pictures/perfil2.optimized.jpg';
+import profileProcess from '../assets/reference-pictures/perfil2.optimized.webp';
 
 const stepTitles = ['Revisión inicial', 'Plan de acción', 'Orden operativo', 'Seguimiento'];
 
@@ -7,12 +7,14 @@ function Trust({ owner, process }) {
   return (
     <section className="trust">
       <div className="trust-media" aria-hidden="true">
-        <img src={profileProcess} alt="" />
+        <img src={profileProcess} alt="" loading="lazy" decoding="async" />
       </div>
       <div className="trust-inner">
         <div className="trust-copy" data-reveal>
           <p className="eyebrow">Confianza</p>
-          <h2>Un proceso claro para lanzar o mejorar tu alojamiento.</h2>
+          <h2>
+            Un proceso <em>claro</em> para lanzar o mejorar tu alojamiento.
+          </h2>
           <p>
             Trabajo con pasos simples para definir qué se crea, qué se ajusta y cómo se mantiene la
             operación bajo control.

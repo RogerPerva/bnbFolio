@@ -1,11 +1,11 @@
-import casaAguacatesCover from '../assets/cases/casa-aguacates/casa-aguacates.optimized.jpg';
-import dcalliCover from '../assets/cases/dcalli/dcalli.png';
-import casaEnsuenoCover from '../assets/cases/ensueño/casa de ensueno.png';
-import habEnsuenoCover from '../assets/cases/hab-ensueno/hab-ensueno.optimized.jpg';
-import miradorSantaFeCover from '../assets/cases/miradorsantafe/mirador-santafe.optimized.jpg';
-import quintaLupitaGrande from '../assets/cases/quintalupita/quinta-lupita-grande.optimized.jpg';
-import quintaLupitaSlim from '../assets/cases/quintalupita-slim/quinta-lupita-slim.optimized.jpg';
-import santaFeCover from '../assets/cases/santafe/santafe.png';
+import casaAguacatesCover from '../assets/cases/casa-aguacates/casa-aguacates.optimized.webp';
+import dcalliCover from '../assets/cases/dcalli/dcalli.webp';
+import casaEnsuenoCover from '../assets/cases/ensueño/casa de ensueno.webp';
+import habEnsuenoCover from '../assets/cases/hab-ensueno/hab-ensueno.optimized.webp';
+import miradorSantaFeCover from '../assets/cases/miradorsantafe/mirador-santafe.optimized.webp';
+import quintaLupitaGrande from '../assets/cases/quintalupita/quinta-lupita-grande.optimized.webp';
+import quintaLupitaSlim from '../assets/cases/quintalupita-slim/quinta-lupita-slim.optimized.webp';
+import santaFeCover from '../assets/cases/santafe/santafe.webp';
 
 export const portfolio = {
   owner: {
