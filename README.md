@@ -152,3 +152,5 @@ https://usuario.github.io/bnbFolio/
 
 - `netlify.toml` se conserva como configuracion opcional si se quiere desplegar tambien en Netlify.
 - Las imagenes pesadas pueden afectar el rendimiento inicial. Si el sitio crece, conviene optimizarlas a WebP/AVIF o generar versiones comprimidas.
+
+- https://rogerperva.github.io/bnbFolio/
