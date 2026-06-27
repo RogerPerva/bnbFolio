@@ -8,6 +8,11 @@
   --m-max: 1180px;
   --m-content: 760px;
   --m-warm: rgba(199, 93, 56, 0.07);
+  /* Sistema horizontal compartido por el hero y el shell para que el título del
+     hero quede alineado con los títulos de sección (no "chueco"). */
+  --m-rail-w: 210px;
+  --m-shell-gap: clamp(24px, 4vw, 64px);
+  --m-shell-pad: clamp(20px, 5vw, 56px);
   color: var(--text);
   background: var(--bg);
   /* `overflow: clip` recorta desbordes horizontales sin crear contexto de scroll,
@@ -163,11 +168,11 @@
 
 .m-shell {
   display: grid;
-  grid-template-columns: 210px minmax(0, 1fr);
-  gap: clamp(24px, 4vw, 64px);
+  grid-template-columns: var(--m-rail-w) minmax(0, 1fr);
+  gap: var(--m-shell-gap);
   max-width: var(--m-max);
   margin: 0 auto;
-  padding: 0 clamp(20px, 5vw, 56px);
+  padding: 0 var(--m-shell-pad);
 }
 
 .m-rail {
@@ -1242,6 +1247,11 @@
   .m-rail {
     display: none;
   }
+
+  /* Sin riel, el hero ya no necesita la sangría de su columna. */
+  .g-hero .m-hero-inner {
+    padding-left: var(--m-shell-pad);
+  }
 }
 
 @media (max-width: 760px) {
@@ -1291,6 +1301,17 @@
   place-items: start;
   padding-top: clamp(48px, 9vh, 96px);
   padding-bottom: clamp(36px, 6vh, 64px);
+  /* El padding horizontal lo lleva el inner para replicar el box del shell y
+     alinear el título con la columna de contenido. */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.g-hero .m-hero-inner {
+  margin: 0 auto;
+  /* Misma sangría que la columna de slices: pad del shell + riel + gap. */
+  padding-left: calc(var(--m-shell-pad) + var(--m-rail-w) + var(--m-shell-gap));
+  padding-right: var(--m-shell-pad);
 }
 
 .g-back {
