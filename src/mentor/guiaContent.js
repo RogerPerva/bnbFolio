@@ -14,6 +14,7 @@ export const guia = {
       id: 'g1',
       num: '01',
       title: '¿Cómo funciona Airbnb?',
+      label: 'Cómo funciona',
       blocks: [
         { p: 'Airbnb es una plataforma donde publicas tu casa, departamento, mini casa, loft, cabaña, habitación, etc. A esto se le llama “alojamiento” o “anuncio”.' },
         { h3: 'Comisiones de la plataforma' },
@@ -47,6 +48,7 @@ export const guia = {
       id: 'g2',
       num: '02',
       title: 'Cómo manejar tu cuenta y tu calendario',
+      label: 'Cuenta y calendario',
       blocks: [
         { h3: 'La cuenta' },
         { p: 'Lo primero es crear y verificar tu cuenta. La verificación (identidad, datos de contacto y datos bancarios para recibir pagos) es lo que te habilita a recibir reservas y cobrar.' },
@@ -92,6 +94,7 @@ export const guia = {
       id: 'g3',
       num: '03',
       title: 'Los pilares de un anuncio exitoso',
+      label: 'Anuncio exitoso',
       blocks: [
         { h3: '1. Anuncio' },
         {
@@ -147,6 +150,7 @@ export const guia = {
       id: 'g4',
       num: '04',
       title: 'Los errores más comunes al arrancar',
+      label: 'Errores comunes',
       blocks: [
         {
           list: [
@@ -165,6 +169,7 @@ export const guia = {
       id: 'g5',
       num: '05',
       title: 'Lo indispensable antes de publicar',
+      label: 'Antes de publicar',
       blocks: [
         { p: 'Antes de recibir al primer huésped, esto conviene tenerlo listo:' },
         {
@@ -197,6 +202,7 @@ export const guia = {
       id: 'g6',
       num: '06',
       title: 'Cómo pensar tu tarifa y tu ocupación',
+      label: 'Tarifa y ocupación',
       blocks: [
         { p: 'Primero ten claros los costos que entran en juego, porque todo suma o todo resta: limpieza, luz, internet, lavandería, insumos, streaming/membresías y mantenimiento.' },
         { h3: 'Dos datos para decidir' },
@@ -215,6 +221,7 @@ export const guia = {
       id: 'g7',
       num: '07',
       title: 'Reglas de la casa y selección de huéspedes',
+      label: 'Reglas y huéspedes',
       blocks: [
         { h3: 'Reglas de la casa' },
         { p: 'Las reglas pueden ser tan abiertas como decidas, pero entre más específicas y claras, mucho mejor. Airbnb incluye AirCover, una protección contra daños del huésped (hasta 3 millones de USD). Para que aplique: reclamar dentro de los 14 días posteriores al check-out, intentar primero el reembolso directo con el huésped y aportar evidencia real (fotos, recibos; nada alterado ni generado con IA). Las reglas bien redactadas ayudan en incidencias como fiestas, mascotas o huéspedes no autorizados.' },
@@ -226,6 +233,7 @@ export const guia = {
       id: 'g8',
       num: '08',
       title: 'Qué esperar en tus primeros 30 días',
+      label: 'Primeros 30 días',
       blocks: [
         { p: 'Aunque las habitaciones ya se hayan probado antes, siempre surgen cosas. Las dudas más comunes:' },
         {
@@ -256,6 +264,7 @@ export const guia = {
       id: 'g9',
       num: '09',
       title: 'Renta por habitaciones (tu modelo)',
+      label: 'Por habitaciones',
       blocks: [
         { p: 'Tu proyecto no es una propiedad completa, sino habitaciones privadas con áreas comunes. Eso cambia algunas decisiones respecto al modelo tradicional:' },
         {
@@ -281,6 +290,7 @@ export const guia = {
       id: 'g10',
       num: '10',
       title: 'Ruta de pasos y acompañamiento',
+      label: 'Ruta y acompañamiento',
       blocks: [
         { h3: 'Ruta sugerida para crear tu anuncio' },
         {

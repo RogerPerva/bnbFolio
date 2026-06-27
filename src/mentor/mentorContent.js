@@ -130,7 +130,6 @@ export const mentor = {
       'Lleva inventario desde el día uno: lo que no se mide, se pierde.',
       'Aprovecha la visibilidad extra del anuncio nuevo con fotos y descripción fuertes; considera el 20% de descuento de anuncio nuevo cuidando el costo-beneficio.',
     ],
-    action: 'Identificamos los 3 riesgos que más te aplican hoy.',
   },
 
   // Slice 5 — Antes de publicar (checklist de revisión, interactivo)

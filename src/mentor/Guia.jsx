@@ -53,7 +53,9 @@ function Block({ block }) {
 
 function Guia() {
   useReveal();
-  const nav = guia.sections.map((s) => ({ id: s.id, num: s.num, label: s.title }));
+  // El riel usa una etiqueta corta (label) para que el índice quepa sin scroll,
+  // igual que en la mentoría; el título largo se conserva para el encabezado.
+  const nav = guia.sections.map((s) => ({ id: s.id, num: s.num, label: s.label || s.title }));
 
   return (
     <main className="mentor guia">

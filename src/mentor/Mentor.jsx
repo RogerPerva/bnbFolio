@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeartHandshake, Lightbulb, ArrowRight } from 'lucide-react';
+import { HeartHandshake, Lightbulb, ArrowRight, UserRound } from 'lucide-react';
 import { mentor } from './mentorContent.js';
 import Tag from './components/Tag.jsx';
 import Slice from './components/Slice.jsx';
@@ -60,10 +60,16 @@ function Mentor() {
           </div>
           <div className="m-hero-foot">
             <p className="m-hero-signature">{owner.name}</p>
-            <a className="m-guide-link" href="guia/">
-              Leer la guía completa
-              <ArrowRight aria-hidden="true" />
-            </a>
+            <div className="m-hero-actions">
+              <a className="m-btn m-btn--ghost" href="../">
+                <UserRound aria-hidden="true" />
+                Ver mi perfil
+              </a>
+              <a className="m-btn m-btn--primary" href="guia/">
+                Leer la guía completa
+                <ArrowRight aria-hidden="true" />
+              </a>
+            </div>
           </div>
         </div>
       </header>
@@ -116,7 +122,6 @@ function Mentor() {
             kicker={risks.kicker}
             title={risks.title}
             subtitle={risks.subtitle}
-            action={risks.action}
           >
             <div className="m-risk-grid">
               {risks.items.map((risk) => (
@@ -250,10 +255,16 @@ function Mentor() {
           <Lightbulb className="m-closing-mark" aria-hidden="true" />
           <p className="m-closing-text">{closing.text}</p>
           <p className="m-closing-support">{closing.support}</p>
-          <a className="m-guide-link m-guide-link--closing" href="guia/">
-            Leer la guía completa
-            <ArrowRight aria-hidden="true" />
-          </a>
+          <div className="m-closing-actions">
+            <a className="m-btn m-btn--ghost" href="../">
+              <UserRound aria-hidden="true" />
+              Ver mi perfil
+            </a>
+            <a className="m-btn m-btn--primary" href="guia/">
+              Leer la guía completa
+              <ArrowRight aria-hidden="true" />
+            </a>
+          </div>
           <p className="m-closing-signature">
             <HeartHandshake aria-hidden="true" />
             {owner.name} · {owner.tagline}
