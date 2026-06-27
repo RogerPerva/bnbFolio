@@ -1,3 +1,4 @@
+import { resolve } from 'node:path';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
@@ -9,5 +10,14 @@ const base = process.env.GITHUB_PAGES === 'true' && repositoryName && !isUserPag
 
 export default defineConfig({
   base,
-  plugins: [react()]
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        mentor: resolve(__dirname, 'mentor/index.html'),
+        mentorGuia: resolve(__dirname, 'mentor/guia/index.html'),
+      },
+    },
+  },
 });
