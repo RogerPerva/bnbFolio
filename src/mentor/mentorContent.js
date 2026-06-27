@@ -38,7 +38,7 @@ export const mentor = {
     num: '02',
     kicker: 'La diferencia entre curso y mentoría',
     title: 'Lo que vamos a revisar hoy',
-    subtitle: 'No es teoría para leer de corrido: es orientación para que tú decidas mejor.',
+    subtitle: '',
     items: [
       'Qué criterios usar para elegir las primeras habitaciones',
       'Qué debe estar listo antes del primer huésped',
@@ -47,7 +47,7 @@ export const mentor = {
       'Cómo pensar tarifa y ocupación sin fijarla a ciegas',
       'Qué señales observar antes de escalar a más habitaciones',
     ],
-  },
+},
 
   // Slice 3 — Tu modelo no es Airbnb genérico
   model: {
@@ -257,7 +257,7 @@ export const mentor = {
       { title: 'Lo que el mercado permite', text: 'Lo que cobran anuncios comparables en tu zona.' },
       { title: 'Lo que puedo mejorar', text: 'Amenidades, fotos y anuncio: más visualizaciones justifican mejor tarifa.' },
     ],
-    note: 'En esta mentoría revisamos criterios para pensar la tarifa. Para fijar precios con precisión se recomienda comparar mercado local, costos reales, temporadas y desempeño inicial.',
+    note: 'Estos son criterios para pensar la tarifa. Para fijar precios con precisión se recomienda comparar mercado local, costos reales, temporadas y desempeño inicial.',
     fiscal: {
       summary: 'Ver comisiones, retenciones e impuestos (nota de revisión)',
       rows: [
@@ -348,6 +348,6 @@ export const mentor = {
 
   closing: {
     text: 'Esta guía no reemplaza la mentoría; la acompaña.',
-    support: 'El acompañamiento posterior cubre las dudas que surjan conforme arrancas (1 a 2 meses).',
+    support: 'El acompañamiento posterior cubre las dudas que surjan conforme arrancas (1 mes).',
   },
 };

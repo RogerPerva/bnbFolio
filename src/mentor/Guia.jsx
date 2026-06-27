@@ -65,7 +65,6 @@ function Guia() {
           </a>
           <p className="m-hero-eyebrow">{guia.eyebrow}</p>
           <h1>{guia.title}</h1>
-          <p className="m-hero-subtitle">{guia.subtitle}</p>
           <p className="g-intro">{guia.intro}</p>
         </div>
       </header>

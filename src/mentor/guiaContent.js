@@ -6,8 +6,6 @@
 export const guia = {
   eyebrow: 'Guía digital de arranque',
   title: 'Guía completa Airbnb',
-  subtitle:
-    'El material a fondo de tu mentoría, para consultar con calma. Entender la plataforma, preparar tu alojamiento y arrancar con criterio.',
   intro:
     'El objetivo de esta guía es que entiendas cómo funciona la plataforma: conceptos básicos, los cobros, el ciclo de vida de una reserva, las herramientas y cómo configurar bien tu anuncio. Empezamos desde cero y avanzamos hasta los criterios que solo se aprenden operando, para que no pierdas meses —y dinero— aprendiéndolos por prueba y error.',
 
@@ -300,7 +298,7 @@ export const guia = {
           ],
         },
         { h3: 'Acompañamiento' },
-        { p: 'Soporte posterior (1 a 2 meses) para resolver las dudas que surjan conforme arrancas.' },
+        { p: 'Soporte posterior (1 mes) para resolver las dudas que surjan conforme arrancas.' },
       ],
     },
   ],

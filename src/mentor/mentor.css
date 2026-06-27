@@ -10,6 +10,9 @@
   --m-warm: rgba(199, 93, 56, 0.07);
   color: var(--text);
   background: var(--bg);
+  /* `overflow: clip` recorta desbordes horizontales sin crear contexto de scroll,
+     a diferencia del `main { overflow: hidden }` global que rompe el sticky del riel. */
+  overflow: clip;
 }
 
 .mentor h2,
